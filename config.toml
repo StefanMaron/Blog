@@ -46,10 +46,15 @@ disqusShortname = ''
     url = '/posts/'
     weight = 20
   [[menu.main]]
+    pageRef="OpenSourceALProjects"
+    name = 'OpenSourceApps'
+    url = '/OpenSourceALProjects/'
+    weight = 30
+  [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
-    weight = 30
+    weight = 40
 
 [params]
   sitename = "Awesome hugo blog"
