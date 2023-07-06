@@ -55,7 +55,62 @@ Find more information on
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TheDoubleH/BCALToolbox.svg?logo=github&logoColor=white)](https://github.com/TheDoubleH/BCALToolbox/pulls)
 [![GitHub license](https://img.shields.io/github/license/TheDoubleH/BCALToolbox)](https://github.com/TheDoubleH/BCALToolbox/blob/release/PTE/LICENSE)
 
+> by [Henrik Helgesen](https://twitter.com/TheDoubleH)
+
 This toolbox is ment to make Your life easier and provide some consistent functionality to You Dynamics 365 Business Central Development.
 
 Find more information on 
 - [GitHub](https://github.com/TheDoubleH/BCALToolbox)
+
+### Table Data Editor Application for Business Central
+
+[![GitHub release](https://img.shields.io/github/v/release/Drakonian/data-editor-for-bc)](https://github.com/Drakonian/data-editor-for-bc/releases/latest)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/pulls)
+[![GitHub license](https://img.shields.io/github/license/Drakonian/data-editor-for-bc)](https://github.com/Drakonian/data-editor-for-bc/blob/release/PTE/LICENSE)
+
+> by [Volodymyr Dvernytskyi](https://twitter.com/VDvernytskyi)
+
+You probably remember the glory days when we had direct access to data in Navision tables. But with the move to Cloud Business Central, we lost that ability. It's probably much safer and more correct, but what if we need to fix some data problem and we know what we're doing? We can write a routine that fixes that problem. But I suggest a better option, this Data Editor extension that allows you to change and delete information from any table in Business Central
+
+![](https://camo.githubusercontent.com/24863b0d3021deb41852cc23a591ad150fc4da8bc1d42fe480b18634b5361b64/68747470733a2f2f7374617469632e74696c646163646e2e636f6d2f74696c64333536352d333633312d343633362d623436332d3330333736353339363633352f4f70656e5461626c652e676966)
+
+Find more information on 
+- [Volodymyr's Blog](https://vld-nav.com/table-data-editor-for-bc-2-0)
+- [GitHub](https://github.com/Drakonian/data-editor-for-bc)
+
+### API Object Generator XML/JSON
+
+[![GitHub release](https://img.shields.io/github/v/release/Drakonian/api_object_generator_json_xml)](https://github.com/Drakonian/api_object_generator_json_xml/releases/latest)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/pulls)
+[![GitHub license](https://img.shields.io/github/license/Drakonian/api_object_generator_json_xml)](https://github.com/Drakonian/api_object_generator_json_xml/blob/release/PTE/LICENSE)
+
+> by [Volodymyr Dvernytskyi](https://twitter.com/VDvernytskyi)
+
+The idea of the application is to read incoming JSON/XML files and generate AL basic objects from that information. You can paste JSON/XML direclty to page or application can also make HTTP requests with authorization depending on the settings. 
+
+![](https://camo.githubusercontent.com/d8089893a9e08ab42022ce605cc49452dda18584d7748192d34b35ce1766f808/68747470733a2f2f7468756d622e74696c646163646e2e636f6d2f74696c64333933302d363433302d343936362d613233312d3339333433313631333733312f2d2f726573697a652f393630782f2d2f666f726d61742f776562702f7469746c655f6e6577322e706e67)
+
+Find more information on 
+- [Volodymyr's Blog](https://vld-nav.com/api-object-generator)
+- [GitHub](https://github.com/Drakonian/api_object_generator_json_xml)
+
+### Dependency Graph
+
+[![GitHub release](https://img.shields.io/github/v/release/NovoaDev/Dependency-Graph-BCExt)](https://github.com/NovoaDev/Dependency-Graph-BCExt/releases/latest)
+[![GitHub last commit](https://img.shields.io/github/last-commit/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/pulls)
+[![GitHub license](https://img.shields.io/github/license/NovoaDev/Dependency-Graph-BCExt)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/release/PTE/LICENSE)
+
+> by [Antonio Novoa ](https://github.com/NovoaDev)
+
+Small tool designed to create a graph showing installed extensions and their respective dependencies, all from the Business Central environment in which the extension is running. In addition, it allows you to preview and download the generated text to easily add it to the client's documentation in Markdown format. 
+
+![](https://github.com/NovoaDev/Dependency-Graph-BCExt/raw/main/res/3ShowInDG.png)
+
+Find more information on
+- [GitHub](https://github.com/NovoaDev/Dependency-Graph-BCExt)

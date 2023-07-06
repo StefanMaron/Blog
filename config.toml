@@ -47,7 +47,7 @@ disqusShortname = ''
     weight = 20
   [[menu.main]]
     pageRef="OpenSourceALProjects"
-    name = 'OpenSourceApps'
+    name = 'Open Source Apps'
     url = '/OpenSourceALProjects/'
     weight = 30
   [[menu.main]]
