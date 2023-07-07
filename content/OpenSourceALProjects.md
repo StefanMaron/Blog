@@ -15,7 +15,7 @@ This is collection of all AL projects that are open source, either available on 
 [![GitHub last commit](https://img.shields.io/github/last-commit/SpareBrainedIdeas/Spare-Brained-Licensing.svg?logo=github&logoColor=white)](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/SpareBrainedIdeas/Spare-Brained-Licensing.svg?logo=github&logoColor=white)](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/SpareBrainedIdeas/Spare-Brained-Licensing.svg?logo=github&logoColor=white)](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing/pulls)
-[![GitHub license](https://img.shields.io/github/license/SpareBrainedIdeas/Spare-Brained-Licensing)](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing/blob/release/PTE/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/SpareBrainedIdeas/Spare-Brained-Licensing)](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing/blob/main/LICENSE)
 
 > by [@SpareBrained](https://twitter.com/SpareBrained) and [@JeremyVyska](https://twitter.com/JeremyVyska)
 
@@ -53,7 +53,7 @@ Find more information on
 [![GitHub last commit](https://img.shields.io/github/last-commit/TheDoubleH/BCALToolbox.svg?logo=github&logoColor=white)](https://github.com/TheDoubleH/BCALToolbox/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/TheDoubleH/BCALToolbox.svg?logo=github&logoColor=white)](https://github.com/TheDoubleH/BCALToolbox/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/TheDoubleH/BCALToolbox.svg?logo=github&logoColor=white)](https://github.com/TheDoubleH/BCALToolbox/pulls)
-[![GitHub license](https://img.shields.io/github/license/TheDoubleH/BCALToolbox)](https://github.com/TheDoubleH/BCALToolbox/blob/release/PTE/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/TheDoubleH/BCALToolbox)](https://github.com/TheDoubleH/BCALToolbox/blob/master/LICENSE.txt)
 
 > by [Henrik Helgesen](https://twitter.com/TheDoubleH)
 
@@ -68,7 +68,7 @@ Find more information on
 [![GitHub last commit](https://img.shields.io/github/last-commit/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Drakonian/data-editor-for-bc.svg?logo=github&logoColor=white)](https://github.com/Drakonian/data-editor-for-bc/pulls)
-[![GitHub license](https://img.shields.io/github/license/Drakonian/data-editor-for-bc)](https://github.com/Drakonian/data-editor-for-bc/blob/release/PTE/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Drakonian/data-editor-for-bc)](https://github.com/Drakonian/data-editor-for-bc/blob/master/LICENSE)
 
 > by [Volodymyr Dvernytskyi](https://twitter.com/VDvernytskyi)
 
@@ -86,7 +86,7 @@ Find more information on
 [![GitHub last commit](https://img.shields.io/github/last-commit/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/Drakonian/api_object_generator_json_xml.svg?logo=github&logoColor=white)](https://github.com/Drakonian/api_object_generator_json_xml/pulls)
-[![GitHub license](https://img.shields.io/github/license/Drakonian/api_object_generator_json_xml)](https://github.com/Drakonian/api_object_generator_json_xml/blob/release/PTE/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/Drakonian/api_object_generator_json_xml)](https://github.com/Drakonian/api_object_generator_json_xml/blob/master/LICENSE)
 
 > by [Volodymyr Dvernytskyi](https://twitter.com/VDvernytskyi)
 
@@ -104,7 +104,7 @@ Find more information on
 [![GitHub last commit](https://img.shields.io/github/last-commit/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/commits/master)
 [![GitHub issues](https://img.shields.io/github/issues-raw/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/NovoaDev/Dependency-Graph-BCExt.svg?logo=github&logoColor=white)](https://github.com/NovoaDev/Dependency-Graph-BCExt/pulls)
-[![GitHub license](https://img.shields.io/github/license/NovoaDev/Dependency-Graph-BCExt)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/release/PTE/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/NovoaDev/Dependency-Graph-BCExt)](https://github.com/NovoaDev/Dependency-Graph-BCExt/blob/main/LICENSE.md)
 
 > by [Antonio Novoa ](https://github.com/NovoaDev)
 
@@ -114,3 +114,20 @@ Small tool designed to create a graph showing installed extensions and their res
 
 Find more information on
 - [GitHub](https://github.com/NovoaDev/Dependency-Graph-BCExt)
+
+### waldo.BCPerfTool
+
+[![GitHub release](https://img.shields.io/github/v/release/waldo1001/waldo.BCPerfTool)](https://github.com/waldo1001/waldo.BCPerfTool/releases/latest)
+[![GitHub last commit](https://img.shields.io/github/last-commit/waldo1001/waldo.BCPerfTool.svg?logo=github&logoColor=white)](https://github.com/waldo1001/waldo.BCPerfTool/commits/master)
+[![GitHub issues](https://img.shields.io/github/issues-raw/waldo1001/waldo.BCPerfTool.svg?logo=github&logoColor=white)](https://github.com/waldo1001/waldo.BCPerfTool/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/waldo1001/waldo.BCPerfTool.svg?logo=github&logoColor=white)](https://github.com/waldo1001/waldo.BCPerfTool/pulls)
+[![GitHub license](https://img.shields.io/github/license/waldo1001/waldo.BCPerfTool)](https://github.com/waldo1001/waldo.BCPerfTool/blob/main/LICENSE.md)
+
+> by [Waldo](https://twitter.com/waldo1001)
+
+A library of many tools and small scripts, along with a framework to run them. Use it to measure the performance and impact on SQL for all sorts of prebuild tasks and add your own to measure them as well.
+
+Find more information on
+- [GitHub](https://github.com/waldo1001/waldo.BCPerfTool)
+- [YouTube BCTechDays 2022](https://www.youtube.com/watch?v=E3ADZsisFbE)
+
