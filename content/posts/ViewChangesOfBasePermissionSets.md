@@ -16,35 +16,35 @@ The different country versions, along with the Major versions, are tracked in "B
 
 You can view, switch and search for different branches by clicking on the master branch selection:
 
-![BranchSelection](../images/BranchSelection.png)
+![BranchSelection](/images/BranchSelection.png)
 
 That means the first step to do is, to select the right branch. If you are located in the us, just search for us and select the latest version:
 
-![LastUSBranch](../images/LastUSBranch.png)
+![LastUSBranch](/images/LastUSBranch.png)
 
 Now you can use the "Search for File" functionality to find the object for the permission set you want to check for changes.
 
-![GoToFile](../images/GoToFile.png)
+![GoToFile](/images/GoToFile.png)
 
 And now search for the code of the permission set.
 
-![PermissionSetObjectSelection](../images/PermissionSetObjectSelection.png)
+![PermissionSetObjectSelection](/images/PermissionSetObjectSelection.png)
 
 If you are in the right place, you should see something like this:
-![PermissionSetViewObject](../images/PermissionSetViewObject.png)
+![PermissionSetViewObject](/images/PermissionSetViewObject.png)
 
 And if you now click on "Blame" at the top you can see with which version each line was changed the last time.
 
 If you need to know what changed exactly, you need to open the commits list, after you selected to correct branch:
 
-![CommitsList](../images/CommitsList.png)
+![CommitsList](/images/CommitsList.png)
 
 And then select the version you want to view the changes for.
 On the left side, you then can search again, for the permission set you want to check.
 You also can just search for `.permissionset.al` to find all permission sets that where changed.
 I scrolled down again to d365basic, and we can see that with the version I selected, just one row was added.
 
-![AddRowInD365Basic](../images/AddRowInD365Basic.png)
+![AddRowInD365Basic](/images/AddRowInD365Basic.png)
 
 Thats it, you can apply this approach to any object you want to control changes for.
 
