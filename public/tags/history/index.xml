@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>history on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/history/</link>
+    <description>Recent content in history on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jan 2021 16:28:03 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSDyn365BC.Code.History</title>
+      <link>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</link>
+      <pubDate>Wed, 13 Jan 2021 16:28:03 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</guid>
+      <description>Did you ever wonder what was changed in a cumulative update in Business Central? Sure, you can read the update notes from Microsoft and read the list of bug fixes they made. But I mean like, really know what was changed. Like, which line was changed on the customer table from between 2 versions?
+Well, I did. For my own code I can always go to the repository and see all the code history.</description>
+    </item>
+    
+  </channel>
+</rss>

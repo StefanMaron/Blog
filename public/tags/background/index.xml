@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>background on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/background/</link>
+    <description>Recent content in background on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2020 09:13:05 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/background/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding4Performance 4: Task Scheduler</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</link>
+      <pubDate>Wed, 15 Jul 2020 09:13:05 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</guid>
+      <description>In my last post about Start Session I explained how you can easily run a Codeunit in background and relieve the user session. The downside on this method is, that your background task still runs on the same server instance like the user session does. If you have only a few users and only one server instance you are good to go. But if not, then the Task Scheduler could be of interest for you!</description>
+    </item>
+    
+  </channel>
+</rss>

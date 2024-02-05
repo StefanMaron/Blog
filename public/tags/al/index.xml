@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AL on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/al/</link>
+    <description>Recent content in AL on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Apr 2021 09:57:13 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/al/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code review: Loop over an Enum</title>
+      <link>https://stefanmaron.onrender.com/posts/code-review-loop-over-an-enum/</link>
+      <pubDate>Mon, 19 Apr 2021 09:57:13 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/code-review-loop-over-an-enum/</guid>
+      <description>So I came across this post from ThatNavGuy: Looping Through Enum – That NAV guy (wordpress.com)
+He shows an example on how to loop over an enum. The goal is to have the enum pointing to the next value on each iteration.
+Since this community is about sharing knowledge and learning from each other, I wanted to make a quick code review and show, how I would solve this task ;)</description>
+    </item>
+    
+  </channel>
+</rss>

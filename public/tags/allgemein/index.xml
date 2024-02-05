@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Allgemein on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/allgemein/</link>
+    <description>Recent content in Allgemein on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jun 2023 14:53:23 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/allgemein/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BC TechDays 2023</title>
+      <link>https://stefanmaron.onrender.com/posts/bc-techdays-2023/</link>
+      <pubDate>Fri, 23 Jun 2023 14:53:23 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/bc-techdays-2023/</guid>
+      <description>And yet another conference has come to an end. And again its this weird feeling I can not really describe. All I know is, I am already looking forward to meeting all of the community again in France for EMEA later this year!
+It was again an awesome conference for may reasons: Good sessions, good networking, meeting all the friends again, having valuable talk with all those experts on their specific field.</description>
+    </item>
+    
+    <item>
+      <title>My journey to Linux</title>
+      <link>https://stefanmaron.onrender.com/posts/my-journey-to-linux/</link>
+      <pubDate>Thu, 08 Jun 2023 19:46:33 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/my-journey-to-linux/</guid>
+      <description>I do not exactly recall when that thought started to grow in the back of my mind, but I think I always were fascinated by linux. And I already created linux live USB sticks a couple of times. It not that difficult anymore as I recall it was someday. Maybe it never was and I just became more savvy with tech, who knows. But I never felt like this could be the operating system I would use for my daily work.</description>
+    </item>
+    
+    <item>
+      <title>Business Central LinterCop with older Versions of BC</title>
+      <link>https://stefanmaron.onrender.com/posts/business-central-lintercop-with-older-versions-of-bc/</link>
+      <pubDate>Tue, 11 Jan 2022 05:37:14 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/business-central-lintercop-with-older-versions-of-bc/</guid>
+      <description>If you want to run pipelines with the LinterCop, you can use Run-ALPipeline and pass in the path to the LinterCop.dll via the parameter - CustomCops. But when running pipelines for various versions of BusinessCentral you might encounter errors like this:
+Microsoft.Dynamics.Nav.CodeAnalysis, Version=8.2.8.24543, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;(,): warning : An instance of analyzer http://BusinessCentral.LinterCop.Design.Rule0012DoNotUseObjectIdInSystemFunctions cannot be created from C:\Agent\LinterCop\BusinessCentral.LinterCop.dll : Could not load file or assembly &#39;Microsoft.Dynamics.Nav.CodeAnalysis, Version=8.2.8.24543, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;. The system cannot find the file specified.</description>
+    </item>
+    
+    <item>
+      <title>Changes in MSDyn365BC.Code.History</title>
+      <link>https://stefanmaron.onrender.com/posts/changes-in-msdyn365bc-code-history/</link>
+      <pubDate>Fri, 07 Jan 2022 11:48:53 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/changes-in-msdyn365bc-code-history/</guid>
+      <description>Today you may have already noticed something like this if you have a local clone of MSDyn365BC.Code.History to use with VS Code. I am going to explain what the hell is going on, and how to solve it ;)
+The history was rewritten I had a couple of recommendations to improve this repository. That includes a .gitignore and some changes of the settings in the workspace files. But since this repo is a bit different compared to &amp;ldquo;normal&amp;rdquo; repos, its not that easy to just merge a pull request.</description>
+    </item>
+    
+    <item>
+      <title>BusinessCentral.LinterCop v0.23.0</title>
+      <link>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-v0-23-0/</link>
+      <pubDate>Wed, 05 Jan 2022 07:10:45 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-v0-23-0/</guid>
+      <description>A new version of the BusinessCentral.LinterCop just got released 🥳
+Special thanks to Rob van Bekkum @rvanbekkum who wrote two new rules!
+Added Help links to wiki Microsoft already did this in the december release I think, and now the LinterCop also includes direct links to the wiki on GitHub.
+Just by clicking for example on &amp;ldquo;LC0015&amp;rdquo; you can open the wiki page for this rule on the GitHub Repository https://github.</description>
+    </item>
+    
+    <item>
+      <title>Updates on my LinterCop project</title>
+      <link>https://stefanmaron.onrender.com/posts/updates-on-my-lintercop-project/</link>
+      <pubDate>Wed, 17 Nov 2021 06:20:47 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/updates-on-my-lintercop-project/</guid>
+      <description>In the last days, I managed to get some new updates for you released. Since this would be too much for a tweet, I will summarize here what changed, what will change in the next days (hopefully 🙃 ), and what is planned for future updates.
+What changed lately? Pipelines and automated builds The biggest change I did in the last weeks, was to introduce pipelines and automated builds on GitHub for the LinterCop.</description>
+    </item>
+    
+    <item>
+      <title>BusinessCentral.LinterCop goes VS Code!</title>
+      <link>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-goes-vs-code/</link>
+      <pubDate>Tue, 21 Sep 2021 15:59:09 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-goes-vs-code/</guid>
+      <description>After quite some analyzing and reverse engineering, I got it working!
+The custom code analyzer BusinessCentral.LinterCop is running included in VS Code.
+And here is how to do it: First, go to my GitHub and download the latest binary here.
+Then just place it on your hard drive, for example &amp;ldquo;C:\ALCustomCops\&amp;rdquo;
+Then go to your settings file and insert it in the &amp;ldquo;al.codeAnalyzers&amp;rdquo; like this:
+And thats it! Pretty short Blog but this should get you going ;)</description>
+    </item>
+    
+    <item>
+      <title>BusinessCentral.LinterCop</title>
+      <link>https://stefanmaron.onrender.com/posts/businesscentral-lintercop/</link>
+      <pubDate>Thu, 02 Sep 2021 08:13:42 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/businesscentral-lintercop/</guid>
+      <description>As you maybe remember, I am working on a linter solution for AL for some time already. I tried a VS Code extension. I tried to build a dll to increase performance and to make it available in powershell and therefore also in pipelines. But for now I did not find a proper solution.
+Recently I realized that the AL Compiler has a parameter &amp;ldquo;/analyzer:&amp;rdquo; and accepts a dll. And depending on wich cops you enable, the according ddls are just passed in.</description>
+    </item>
+    
+    <item>
+      <title>Be careful with dynamic code</title>
+      <link>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</link>
+      <pubDate>Wed, 11 Aug 2021 07:09:13 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</guid>
+      <description>I believe there is a time in every AL developers live where he discovers the power of RecordRef and FieldRef. It is surely Incredible what you can achieve with these tools and how fast you can deliver a pretty good working piece of code.
+At least this is the way I remember my first solutions I build when I first learned about RecordRefs. I realized, the more I think about it the more code could be written with a dynamic approach and I started to deliver my finished code quite a bit faster.</description>
+    </item>
+    
+    <item>
+      <title>MSDyn365BC.Code.History got a few updates!</title>
+      <link>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history-got-a-few-updates/</link>
+      <pubDate>Wed, 23 Jun 2021 06:00:06 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history-got-a-few-updates/</guid>
+      <description>Over the last few month a collected a few requests to improve or change the MSDyn365BC.Code.History repository. Last weekend I finally managed to address them and since Sunday I rebuild the whole Repository. Today its finally going live:
+https://github.com/StefanMaron/MSDyn365BC.Code.History
+Include Translation files Since today, (hopefully) all translation files are included. I never did this but in case you need to, you can now compare them. For performance reasons they are excluded from search in all the workspaces that are part of the repository tho.</description>
+    </item>
+    
+    <item>
+      <title>Validate a commit before it is committed</title>
+      <link>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</link>
+      <pubDate>Thu, 10 Jun 2021 14:20:29 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</guid>
+      <description>Recently there was this question about how to do version numbering when working with AL Apps and automatic builds:
+It started a discussion about when to update which part of the version number and how that is done. The discussion will be continued today (10th June 2021 9pm CEST) on Discord if you are interested to join/listen:
+waldo on Twitter: &amp;ldquo;For whomever is interested - this Thursday, 9pm CEST, we&amp;rsquo;ll have a discussion on this topic (handling app versions) on the #msdyn365bc discord: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Can I copy my container?</title>
+      <link>https://stefanmaron.onrender.com/posts/can-i-copy-my-container/</link>
+      <pubDate>Tue, 23 Feb 2021 05:58:14 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/can-i-copy-my-container/</guid>
+      <description>I just stumbled over this twitter post from Steve
+And I asked myself the same question already some time ago. And guess what, this is super easy ;)
+Stop and Commit the container you want to copy You first need to stop your container you want to copy. If it is running of course ;)
+Stop-BcContainer &amp;lt;ContainerToCopy&amp;gt; This should not take too long.
+After that you can use the &amp;ldquo;Docker commit&amp;rdquo; command to save the current state of this container to a new image.</description>
+    </item>
+    
+    <item>
+      <title>Thoughts about automated testing in projects</title>
+      <link>https://stefanmaron.onrender.com/posts/thoughts-about-automated-testing-in-projects/</link>
+      <pubDate>Mon, 01 Feb 2021 09:34:04 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/thoughts-about-automated-testing-in-projects/</guid>
+      <description>I just finished a somewhat successful project with one of my customers, starting with BC from scratch only with some master data imported. For some more critical processes I wrote some basic test cases and automated them. Although this project did not fail and the customer can work with BC without problems now, I had a feeling of just being lucky.
+I mean, I know what I am capable of and I was confident to do this project from the beginning.</description>
+    </item>
+    
+    <item>
+      <title>MSDyn365BC.Code.History</title>
+      <link>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</link>
+      <pubDate>Wed, 13 Jan 2021 16:28:03 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</guid>
+      <description>Did you ever wonder what was changed in a cumulative update in Business Central? Sure, you can read the update notes from Microsoft and read the list of bug fixes they made. But I mean like, really know what was changed. Like, which line was changed on the customer table from between 2 versions?
+Well, I did. For my own code I can always go to the repository and see all the code history.</description>
+    </item>
+    
+    <item>
+      <title>In VS Code you want to git stage manually...</title>
+      <link>https://stefanmaron.onrender.com/posts/in-vs-code-you-want-to-stage-manually/</link>
+      <pubDate>Mon, 09 Nov 2020 15:34:55 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/in-vs-code-you-want-to-stage-manually/</guid>
+      <description>After a longer break with blogging, I am now back with a really short one. But I thought this would be worth sharing ;)
+Thanks to @waldo1001 and @KarolakNatalie who opened my eyes on this one :)
+You might know this little message, although you might have already forgotten that you got asked, when you fist started working with VS Code.
+It seems like this can really save some time and work.</description>
+    </item>
+    
+    <item>
+      <title>Automated export objects from C/AL</title>
+      <link>https://stefanmaron.onrender.com/posts/automated-export-objects-from-c-al/</link>
+      <pubDate>Mon, 07 Sep 2020 05:44:17 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/automated-export-objects-from-c-al/</guid>
+      <description>This time I have some tips on how to use GIT integration when developing in C/AL with docker. When used to AL development one of the first things to notice when going back to C/AL is, that you do not have any version control.
+To solve this problem, I added a little bit of SQL code to the [Object] table as SQL Trigger. This trigger exports each edited object as TXT file to specified folder.</description>
+    </item>
+    
+    <item>
+      <title>Business Central and Multiline Fields</title>
+      <link>https://stefanmaron.onrender.com/posts/business-central-and-multiline-fields/</link>
+      <pubDate>Thu, 20 Aug 2020 05:07:52 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/business-central-and-multiline-fields/</guid>
+      <description>This topic is probably as old as the RTC client. If you want to display a text field on a Page you will try for around two hours and then you will give up and maybe build a control addin to solve this.
+In the web client this problem was not solved by now. We have fields with length up to 2048 but we are not able to display this.</description>
+    </item>
+    
+    <item>
+      <title>Condition basics in AL</title>
+      <link>https://stefanmaron.onrender.com/posts/condition-basics-in-al/</link>
+      <pubDate>Tue, 04 Aug 2020 12:58:24 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/condition-basics-in-al/</guid>
+      <description>Recently I posted a &amp;ldquo;Did you know that &amp;hellip;&amp;rdquo; post on Twitter showing an alternative way to write an if-condition. Today I thought: Hey, I might have some more examples for different ways to write conditions and here we are ;)
+First start with the most simple if statement there is:
+It just checks if the text variable is empty and if this is the case, some code is executed. Note that in AL the parentheses are not needed if you have only one condition or if you compare booleans.</description>
+    </item>
+    
+  </channel>
+</rss>

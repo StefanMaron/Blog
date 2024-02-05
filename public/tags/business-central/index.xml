@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business Central on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/business-central/</link>
+    <description>Recent content in Business Central on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Feb 2022 08:00:45 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/business-central/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bugfixes for LinterCop Rule LC0015</title>
+      <link>https://stefanmaron.onrender.com/posts/bugfixes-for-lintercop-rule-lc0015/</link>
+      <pubDate>Wed, 02 Feb 2022 08:00:45 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/bugfixes-for-lintercop-rule-lc0015/</guid>
+      <description>I just released a new version for the BusinessCentral.LinterCop.
+This rule is similar to the PTE0004 from Microsoft which checks for your tables to have a TableData permission set. All the other permissions are not covered.
+After some discussion and some thoughts I ended up also including the check for TableData in LC0015. If you dont want to have a double check for this, you can disable PTE0004.
+More details can be found in the dedicated docs side for this rule:</description>
+    </item>
+    
+    <item>
+      <title>How to takle all the challenges with BC SaaS?</title>
+      <link>https://stefanmaron.onrender.com/posts/how-to-takle-all-the-challenges-with-bc-saas/</link>
+      <pubDate>Thu, 30 Dec 2021 09:23:34 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/how-to-takle-all-the-challenges-with-bc-saas/</guid>
+      <description>It&amp;rsquo;s been a while since my last blog post and this time its not about a technical topic. I have just watched the (right now) latest video from @SteveEndow and he asks a lot of questions and leaves open the answers. I just feel like I could share a few of my thoughts about some of those topics, related to Business Central. So if you did not watch the video already, you should watch it before continuing reading.</description>
+    </item>
+    
+    <item>
+      <title>BusinessCentral.LinterCop goes VS Code!</title>
+      <link>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-goes-vs-code/</link>
+      <pubDate>Tue, 21 Sep 2021 15:59:09 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/businesscentral-lintercop-goes-vs-code/</guid>
+      <description>After quite some analyzing and reverse engineering, I got it working!
+The custom code analyzer BusinessCentral.LinterCop is running included in VS Code.
+And here is how to do it: First, go to my GitHub and download the latest binary here.
+Then just place it on your hard drive, for example &amp;ldquo;C:\ALCustomCops\&amp;rdquo;
+Then go to your settings file and insert it in the &amp;ldquo;al.codeAnalyzers&amp;rdquo; like this:
+And thats it! Pretty short Blog but this should get you going ;)</description>
+    </item>
+    
+    <item>
+      <title>Be careful with dynamic code</title>
+      <link>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</link>
+      <pubDate>Wed, 11 Aug 2021 07:09:13 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</guid>
+      <description>I believe there is a time in every AL developers live where he discovers the power of RecordRef and FieldRef. It is surely Incredible what you can achieve with these tools and how fast you can deliver a pretty good working piece of code.
+At least this is the way I remember my first solutions I build when I first learned about RecordRefs. I realized, the more I think about it the more code could be written with a dynamic approach and I started to deliver my finished code quite a bit faster.</description>
+    </item>
+    
+    <item>
+      <title>MSDyn365BC.Code.History got a few updates!</title>
+      <link>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history-got-a-few-updates/</link>
+      <pubDate>Wed, 23 Jun 2021 06:00:06 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history-got-a-few-updates/</guid>
+      <description>Over the last few month a collected a few requests to improve or change the MSDyn365BC.Code.History repository. Last weekend I finally managed to address them and since Sunday I rebuild the whole Repository. Today its finally going live:
+https://github.com/StefanMaron/MSDyn365BC.Code.History
+Include Translation files Since today, (hopefully) all translation files are included. I never did this but in case you need to, you can now compare them. For performance reasons they are excluded from search in all the workspaces that are part of the repository tho.</description>
+    </item>
+    
+    <item>
+      <title>Validate a commit before it is committed</title>
+      <link>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</link>
+      <pubDate>Thu, 10 Jun 2021 14:20:29 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</guid>
+      <description>Recently there was this question about how to do version numbering when working with AL Apps and automatic builds:
+It started a discussion about when to update which part of the version number and how that is done. The discussion will be continued today (10th June 2021 9pm CEST) on Discord if you are interested to join/listen:
+waldo on Twitter: &amp;ldquo;For whomever is interested - this Thursday, 9pm CEST, we&amp;rsquo;ll have a discussion on this topic (handling app versions) on the #msdyn365bc discord: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Upgrade a BC CRONUS Database using Docker</title>
+      <link>https://stefanmaron.onrender.com/posts/upgrade-a-bc-cronos-database-using-docker/</link>
+      <pubDate>Fri, 04 Jun 2021 09:00:33 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/upgrade-a-bc-cronos-database-using-docker/</guid>
+      <description>A few days ago I streamed how I try to upgrade a Business Central CRONOS Database just using docker:
+https://youtu.be/2UnIFAWgEK0
+Apart from a few throwbacks it went quite well, but better watch yourself ;)
+However, I promised to publish the script I created so you don&amp;rsquo;t need to write it down from the video.
+https://gist.github.com/StefanMaron/17fd977dd7192e4a713012db91889cf5
+Have Fun ;)</description>
+    </item>
+    
+    <item>
+      <title>Speed up BC container creation</title>
+      <link>https://stefanmaron.onrender.com/posts/speed-up-bc-container-creation/</link>
+      <pubDate>Tue, 16 Mar 2021 19:46:00 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/speed-up-bc-container-creation/</guid>
+      <description>This is probably going to be a short blog again and chances are high that you already know what I am going to share. But if your are like me and did not know this little trick, its going to save you, and maybe your team, quite some time!
+Since I do not run my pipelines on DevOps but on GitLab I am quite happy to use the Run-ALPipeLine command. When you supply the -imageName parameter it behaves the same way like New-BCContainer does.</description>
+    </item>
+    
+    <item>
+      <title>Performance &amp;amp; Variables exposed as field on a Page</title>
+      <link>https://stefanmaron.onrender.com/posts/performance-variables-exposed-as-field-on-a-page/</link>
+      <pubDate>Tue, 02 Mar 2021 19:01:27 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/performance-variables-exposed-as-field-on-a-page/</guid>
+      <description>Today was again one of those days&amp;hellip;
+I just wanted to add a flow field to a table to look up some value, and display it on a list page. After some time I realized that this wont work. Im my case I needed to go three table relations deep to get out the value I needed. But just chaining two FlowFields would already be enough to see this mission failing.</description>
+    </item>
+    
+    <item>
+      <title>Video series: How do I?</title>
+      <link>https://stefanmaron.onrender.com/posts/video-series-how-do-i/</link>
+      <pubDate>Sun, 28 Feb 2021 08:54:16 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/video-series-how-do-i/</guid>
+      <description>I just joined the hype train and started to record AL learning videos!
+Yes, I know what you might think now.
+&amp;ldquo;Again? There are already enough people doing the same videos over and over again!&amp;rdquo;
+But I have something different in mind. In this series of videos I want to share and show how I o stuff in AL. And maybe explain why I do it like this. My goal is to create videos as short as possible and focus only on a simple single task per video.</description>
+    </item>
+    
+    <item>
+      <title>MSDyn365BC.Code.History</title>
+      <link>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</link>
+      <pubDate>Wed, 13 Jan 2021 16:28:03 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/msdyn365bc-code-history/</guid>
+      <description>Did you ever wonder what was changed in a cumulative update in Business Central? Sure, you can read the update notes from Microsoft and read the list of bug fixes they made. But I mean like, really know what was changed. Like, which line was changed on the customer table from between 2 versions?
+Well, I did. For my own code I can always go to the repository and see all the code history.</description>
+    </item>
+    
+    <item>
+      <title>Business Central and Multiline Fields</title>
+      <link>https://stefanmaron.onrender.com/posts/business-central-and-multiline-fields/</link>
+      <pubDate>Thu, 20 Aug 2020 05:07:52 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/business-central-and-multiline-fields/</guid>
+      <description>This topic is probably as old as the RTC client. If you want to display a text field on a Page you will try for around two hours and then you will give up and maybe build a control addin to solve this.
+In the web client this problem was not solved by now. We have fields with length up to 2048 but we are not able to display this.</description>
+    </item>
+    
+    <item>
+      <title>Condition basics in AL</title>
+      <link>https://stefanmaron.onrender.com/posts/condition-basics-in-al/</link>
+      <pubDate>Tue, 04 Aug 2020 12:58:24 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/condition-basics-in-al/</guid>
+      <description>Recently I posted a &amp;ldquo;Did you know that &amp;hellip;&amp;rdquo; post on Twitter showing an alternative way to write an if-condition. Today I thought: Hey, I might have some more examples for different ways to write conditions and here we are ;)
+First start with the most simple if statement there is:
+It just checks if the text variable is empty and if this is the case, some code is executed. Note that in AL the parentheses are not needed if you have only one condition or if you compare booleans.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 5: FindSet vs FindFirst</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-5-findset-vs-findfirst/</link>
+      <pubDate>Thu, 23 Jul 2020 06:26:19 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-5-findset-vs-findfirst/</guid>
+      <description>Today in coding for performance, we talk a bit about FindSet and FindFirst. I actually had plans to make this one the first post in this series. But it turned out that the differences between this two commands are not as obvious as I first thought.
+Let me first place a huge disclaimer here: Everything I test and explain here is done with Business Central version 16. It might be that earlier versions of BC and NAV behaved differently.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 4: Task Scheduler</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</link>
+      <pubDate>Wed, 15 Jul 2020 09:13:05 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</guid>
+      <description>In my last post about Start Session I explained how you can easily run a Codeunit in background and relieve the user session. The downside on this method is, that your background task still runs on the same server instance like the user session does. If you have only a few users and only one server instance you are good to go. But if not, then the Task Scheduler could be of interest for you!</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 3: Start Session</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-3-start-session/</link>
+      <pubDate>Sat, 11 Jul 2020 07:48:15 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-3-start-session/</guid>
+      <description>As promised, here the first (and easiest) way to run code in background. This blog will be a bit shorter, as Start session is quite straight forward. Note: If you did not read the previous blog about Background tasks in general, maybe you should start there ;)
+I created an example scenario for which a background task could be useful. Maybe you want your customers to be correctly set up before anyone is able to post any invoice or shipment for them.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 2: Asynchronous development and background tasks</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-2-asynchronous-development-and-background-tasks/</link>
+      <pubDate>Fri, 10 Jul 2020 07:52:14 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-2-asynchronous-development-and-background-tasks/</guid>
+      <description>In this post I will explain the general concept of asynchronous development and background tasks.
+So everyone knows how procedural development works. In Business Central it starts with a user which logs in to the web client and starts a user session. The first page which opens is most likely the role center page. Behind the scenes now every part runs some code and loads some data. Typically this happens from top to bottom.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 1: Text Builder</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4perfomance-1-text-builder/</link>
+      <pubDate>Mon, 06 Jul 2020 08:04:47 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4perfomance-1-text-builder/</guid>
+      <description>As NAV and Business Central evolves user tasks become more complex and BC becomes more powerful to solve this tasks. But this happens often with cost in performance. Even Microsoft published a (very good) article about how to improve performance in BC.
+I do mainly concentrate on the developer aspect of this article and in this post especially on the TextBuilder Data Type.
+So it is described that working with this Datatype instead of gluing strings with += together is much more efficient.</description>
+    </item>
+    
+    <item>
+      <title>How to: Fix problems with Docker DNS resolution</title>
+      <link>https://stefanmaron.onrender.com/posts/how-to-fix-problems-with-docker-dns-resolution/</link>
+      <pubDate>Sat, 04 Jul 2020 17:53:29 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/how-to-fix-problems-with-docker-dns-resolution/</guid>
+      <description>Recently I discovered that my BC instance within a Docker container somehow can not access the internet. After some time I figured that the problem was the DNS resolution and I thought I might share two possible ways to resolve this problem with you!
+How to check if you have the same problem You can check this by yourself if you enter you BC Container. (Note: You need to have the navcontainerhelper module installed)</description>
+    </item>
+    
+  </channel>
+</rss>

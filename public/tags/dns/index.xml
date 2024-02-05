@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNS on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/dns/</link>
+    <description>Recent content in DNS on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jul 2020 17:53:29 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/dns/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to: Fix problems with Docker DNS resolution</title>
+      <link>https://stefanmaron.onrender.com/posts/how-to-fix-problems-with-docker-dns-resolution/</link>
+      <pubDate>Sat, 04 Jul 2020 17:53:29 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/how-to-fix-problems-with-docker-dns-resolution/</guid>
+      <description>Recently I discovered that my BC instance within a Docker container somehow can not access the internet. After some time I figured that the problem was the DNS resolution and I thought I might share two possible ways to resolve this problem with you!
+How to check if you have the same problem You can check this by yourself if you enter you BC Container. (Note: You need to have the navcontainerhelper module installed)</description>
+    </item>
+    
+  </channel>
+</rss>

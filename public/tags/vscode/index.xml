@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSCode on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/vscode/</link>
+    <description>Recent content in VSCode on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Aug 2020 13:34:19 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/vscode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VS Code extension: AL Lint</title>
+      <link>https://stefanmaron.onrender.com/posts/vs-code-extension-al-lint/</link>
+      <pubDate>Sat, 08 Aug 2020 13:34:19 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/vs-code-extension-al-lint/</guid>
+      <description>Maybe you have read this in twitter already: I took over the AL Lint extension for VS Code from Marije Brummel. She searched quite some time already for someone and finally she found me :D
+For now I did two things on this extension for now.
+ I worked myself a little bit into extension development for VS Code and did a little bit of refactoring, updated some dependencies to new versions and removed checks which are now covered by the AL Code Cops.</description>
+    </item>
+    
+  </channel>
+</rss>

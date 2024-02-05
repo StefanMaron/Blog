@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Performance on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/performance/</link>
+    <description>Recent content in Performance on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Aug 2021 07:09:13 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Be careful with dynamic code</title>
+      <link>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</link>
+      <pubDate>Wed, 11 Aug 2021 07:09:13 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/be-careful-with-dynamic-code/</guid>
+      <description>I believe there is a time in every AL developers live where he discovers the power of RecordRef and FieldRef. It is surely Incredible what you can achieve with these tools and how fast you can deliver a pretty good working piece of code.
+At least this is the way I remember my first solutions I build when I first learned about RecordRefs. I realized, the more I think about it the more code could be written with a dynamic approach and I started to deliver my finished code quite a bit faster.</description>
+    </item>
+    
+    <item>
+      <title>Speed up BC container creation</title>
+      <link>https://stefanmaron.onrender.com/posts/speed-up-bc-container-creation/</link>
+      <pubDate>Tue, 16 Mar 2021 19:46:00 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/speed-up-bc-container-creation/</guid>
+      <description>This is probably going to be a short blog again and chances are high that you already know what I am going to share. But if your are like me and did not know this little trick, its going to save you, and maybe your team, quite some time!
+Since I do not run my pipelines on DevOps but on GitLab I am quite happy to use the Run-ALPipeLine command. When you supply the -imageName parameter it behaves the same way like New-BCContainer does.</description>
+    </item>
+    
+    <item>
+      <title>Performance &amp;amp; Variables exposed as field on a Page</title>
+      <link>https://stefanmaron.onrender.com/posts/performance-variables-exposed-as-field-on-a-page/</link>
+      <pubDate>Tue, 02 Mar 2021 19:01:27 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/performance-variables-exposed-as-field-on-a-page/</guid>
+      <description>Today was again one of those days&amp;hellip;
+I just wanted to add a flow field to a table to look up some value, and display it on a list page. After some time I realized that this wont work. Im my case I needed to go three table relations deep to get out the value I needed. But just chaining two FlowFields would already be enough to see this mission failing.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 5: FindSet vs FindFirst</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-5-findset-vs-findfirst/</link>
+      <pubDate>Thu, 23 Jul 2020 06:26:19 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-5-findset-vs-findfirst/</guid>
+      <description>Today in coding for performance, we talk a bit about FindSet and FindFirst. I actually had plans to make this one the first post in this series. But it turned out that the differences between this two commands are not as obvious as I first thought.
+Let me first place a huge disclaimer here: Everything I test and explain here is done with Business Central version 16. It might be that earlier versions of BC and NAV behaved differently.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 4: Task Scheduler</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</link>
+      <pubDate>Wed, 15 Jul 2020 09:13:05 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-4-task-scheduler/</guid>
+      <description>In my last post about Start Session I explained how you can easily run a Codeunit in background and relieve the user session. The downside on this method is, that your background task still runs on the same server instance like the user session does. If you have only a few users and only one server instance you are good to go. But if not, then the Task Scheduler could be of interest for you!</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 3: Start Session</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-3-start-session/</link>
+      <pubDate>Sat, 11 Jul 2020 07:48:15 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-3-start-session/</guid>
+      <description>As promised, here the first (and easiest) way to run code in background. This blog will be a bit shorter, as Start session is quite straight forward. Note: If you did not read the previous blog about Background tasks in general, maybe you should start there ;)
+I created an example scenario for which a background task could be useful. Maybe you want your customers to be correctly set up before anyone is able to post any invoice or shipment for them.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 2: Asynchronous development and background tasks</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4performance-2-asynchronous-development-and-background-tasks/</link>
+      <pubDate>Fri, 10 Jul 2020 07:52:14 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4performance-2-asynchronous-development-and-background-tasks/</guid>
+      <description>In this post I will explain the general concept of asynchronous development and background tasks.
+So everyone knows how procedural development works. In Business Central it starts with a user which logs in to the web client and starts a user session. The first page which opens is most likely the role center page. Behind the scenes now every part runs some code and loads some data. Typically this happens from top to bottom.</description>
+    </item>
+    
+    <item>
+      <title>Coding4Performance 1: Text Builder</title>
+      <link>https://stefanmaron.onrender.com/posts/coding4perfomance-1-text-builder/</link>
+      <pubDate>Mon, 06 Jul 2020 08:04:47 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/coding4perfomance-1-text-builder/</guid>
+      <description>As NAV and Business Central evolves user tasks become more complex and BC becomes more powerful to solve this tasks. But this happens often with cost in performance. Even Microsoft published a (very good) article about how to improve performance in BC.
+I do mainly concentrate on the developer aspect of this article and in this post especially on the TextBuilder Data Type.
+So it is described that working with this Datatype instead of gluing strings with += together is much more efficient.</description>
+    </item>
+    
+  </channel>
+</rss>

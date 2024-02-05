@@ -55,6 +55,11 @@ disqusShortname = ''
     name = 'About'
     url = '/about/'
     weight = 40
+  [[menu.main]]
+    pageRef="vcard/stefanmaron"
+    name = 'vCard'
+    url = '/vcard/stefanmaron'
+    weight = 40
 
 [params]
   sitename = "Awesome hugo blog"

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/git/</link>
+    <description>Recent content in git on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jun 2021 14:20:29 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Validate a commit before it is committed</title>
+      <link>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</link>
+      <pubDate>Thu, 10 Jun 2021 14:20:29 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/validate-a-commit-before-it-is-committed/</guid>
+      <description>Recently there was this question about how to do version numbering when working with AL Apps and automatic builds:
+It started a discussion about when to update which part of the version number and how that is done. The discussion will be continued today (10th June 2021 9pm CEST) on Discord if you are interested to join/listen:
+waldo on Twitter: &amp;ldquo;For whomever is interested - this Thursday, 9pm CEST, we&amp;rsquo;ll have a discussion on this topic (handling app versions) on the #msdyn365bc discord: https://t.</description>
+    </item>
+    
+    <item>
+      <title>Clean up after yourself, Git!</title>
+      <link>https://stefanmaron.onrender.com/posts/clean-up-after-yourself-git/</link>
+      <pubDate>Wed, 10 Mar 2021 07:00:30 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/clean-up-after-yourself-git/</guid>
+      <description>You may know this problem: After a while working with feature branches your local git repository is a mess of many branches which don&amp;rsquo;t event exist anymore on your remote. (GitHub/GitLab/DevOps)
+You could delete these local branches manually but if you are as lazy as I am, you might want to read on and just take my solution for this ;)
+I wrote a short function in PowerShell which cleans up branches for me:</description>
+    </item>
+    
+    <item>
+      <title>In VS Code you want to git stage manually...</title>
+      <link>https://stefanmaron.onrender.com/posts/in-vs-code-you-want-to-stage-manually/</link>
+      <pubDate>Mon, 09 Nov 2020 15:34:55 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/in-vs-code-you-want-to-stage-manually/</guid>
+      <description>After a longer break with blogging, I am now back with a really short one. But I thought this would be worth sharing ;)
+Thanks to @waldo1001 and @KarolakNatalie who opened my eyes on this one :)
+You might know this little message, although you might have already forgotten that you got asked, when you fist started working with VS Code.
+It seems like this can really save some time and work.</description>
+    </item>
+    
+  </channel>
+</rss>

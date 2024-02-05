@@ -1,0 +1,24 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Maron;Stefan;;;
+FN:Stefan Maron
+ORG:Stefan Maron Consulting
+ADR;TYPE=WORK:
+TITLE:Business Central Developer
+TEL;TYPE=CELL:
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:vcard@stefanmaron.slmail.me
+URL;TYPE=Digital Business Card:https://stefanmaron.com/vcard/stefanmaron
+URL:https://stefanmaron.com/
+URL;TYPE=Website:https://stefanmaron.com/
+URL;TYPE=Buy me a coffee:https://www.buymeacoffee.com/stefanmaron
+URL;TYPE=GitHub:https://github.com/StefanMaron
+URL;TYPE=LinkedIn:https://linkedin.com/in/stefan-maron-709928206
+URL;TYPE=Twitter:https://twitter.com/StefanMaron
+URL;TYPE=YouTube:https://youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:
+UID:EnBizCard-100633579
+END:VCARD

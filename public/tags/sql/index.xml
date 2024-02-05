@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SQL on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/sql/</link>
+    <description>Recent content in SQL on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 05:44:17 +0000</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automated export objects from C/AL</title>
+      <link>https://stefanmaron.onrender.com/posts/automated-export-objects-from-c-al/</link>
+      <pubDate>Mon, 07 Sep 2020 05:44:17 +0000</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/automated-export-objects-from-c-al/</guid>
+      <description>This time I have some tips on how to use GIT integration when developing in C/AL with docker. When used to AL development one of the first things to notice when going back to C/AL is, that you do not have any version control.
+To solve this problem, I added a little bit of SQL code to the [Object] table as SQL Trigger. This trigger exports each edited object as TXT file to specified folder.</description>
+    </item>
+    
+  </channel>
+</rss>
