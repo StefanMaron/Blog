@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General on Stefan Maron blog</title>
+    <link>https://stefanmaron.onrender.com/tags/general/</link>
+    <description>Recent content in General on Stefan Maron blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Mar 2024 08:31:34 +0100</lastBuildDate><atom:link href="https://stefanmaron.onrender.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BC Shortcuts Browser Extension</title>
+      <link>https://stefanmaron.onrender.com/posts/bcshortcutsbrowserextension/</link>
+      <pubDate>Tue, 05 Mar 2024 08:31:34 +0100</pubDate>
+      
+      <guid>https://stefanmaron.onrender.com/posts/bcshortcutsbrowserextension/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
