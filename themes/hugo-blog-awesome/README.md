@@ -132,6 +132,7 @@ url = "index.xml"
 | `behance`       | behance.net                     |
 | `bilibili`      | bilibili.com                    |
 | `bitcoin`       | -                               |
+| `bluesky`       | bsky.app                        |
 | `buymeacoffee`  | buymeacoffee.com                |
 | `codepen`       | codepen.io                      |
 | `cryptohack`    | cryptohack.org                  |
@@ -186,10 +187,12 @@ url = "index.xml"
 | `serverfault`   | serverfault.com                 |
 | `soundcloud`    | soundcloud.com                  |
 | `shutterstock`  | shutterstock.com                |
+| `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
+| `stackshare`    | stackshare.io                   |
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
@@ -264,6 +267,9 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://josephscottcampbell.com/>
 - <https://heckintosh.github.io/>
 - <https://dieter.plaetinck.be/>
+- <https://jmbhughes.com/>
+- <https://www.boniface.me/>
+- <https://meanii.dev/>
 
 ## Support
 

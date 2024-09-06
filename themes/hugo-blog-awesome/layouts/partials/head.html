@@ -2,6 +2,12 @@
     {{- partial "meta/main.html" . }}
     {{- hugo.Generator }}
 
+    {{/* Open Graph tags */}}
+    {{ template "_internal/opengraph.html" . }}
+
+    {{/* Twitter Card tags */}}
+    {{ template "_internal/twitter_cards.html" . }}
+
     {{/* Canonical link, RSS */}}
 
     <link rel="canonical" href="{{ .Permalink }}">
@@ -22,8 +28,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "icons/favicon-32x32.png").RelPermalink }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "icons/favicon-16x16.png").RelPermalink }}">
     <link rel="mask-icon" href="{{ (resources.Get "icons/safari-pinned-tab.svg").RelPermalink }}">
-    <link rel="shortcut icon" href="{{ (resources.Get "icons/favicon.ico" | resources.Copy "favicon.ico").RelPermalink }}">
-    <script data-goatcounter="https://stefanmaron.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <link rel="shortcut icon" href="{{ resources.Get "icons/favicon.ico" }}">
 
     {{- partial "webmanifest.html" . -}}
     {{- partial "browserconfig.html" . -}}
