@@ -1,5 +1,5 @@
 ---
-title: "MsDyn365.Code.History Updates"
+title: "MsDyn365Bc.Code.History Updates"
 date: 2024-10-17T06:07:34+02:00
 draft: false
 ---
