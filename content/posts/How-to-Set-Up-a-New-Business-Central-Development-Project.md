@@ -82,6 +82,12 @@ The `application` setting bundles the dependency to the Base app, the Business F
 This can be left at `1.0.0.0` as the server version will always align with the `application` version.
 The only exception would be if you do not need a dependency to `application` at all. Then I would set the `platform` version instead.
 
+EDIT:
+Thanks to Arthur van de Vondervoort, he pointed out here: https://bsky.app/profile/arthurvdv.bsky.social/post/3lqw2hino5c2t
+
+That it might be better to set the platform dependency to the actual dependency you need. That way, for example, NuGet integrations can load the correct symbols.
+
+
 ### `runtime`
 
 Always specify these explicitly. Omitting `runtime` in particular can cause failures in CI pipelines or result in unpredictable compiler behavior.
