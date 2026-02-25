@@ -55,6 +55,10 @@ disqusShortname = ''
     url = '/tags/videos/'
     weight = 25
   [[menu.main]]
+    name = 'Tags'
+    url = '/tags/'
+    weight = 27
+  [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'

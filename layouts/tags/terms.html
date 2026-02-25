@@ -1,0 +1,16 @@
+{{- define "main" -}}
+<div class="wrapper list-page">
+    <header class="header">
+        <h1 class="header-title center">Tags</h1>
+    </header>
+    <main class="page-content" aria-label="Content">
+        <div class="tags-cloud">
+            {{ range .Data.Terms.ByCount }}
+            <a href="{{ .Page.Permalink }}" class="tag-cloud-item">
+                {{ .Page.Title }}<span class="tag-count">{{ .Count }}</span>
+            </a>
+            {{ end }}
+        </div>
+    </main>
+</div>
+{{- end -}}
