@@ -30,7 +30,10 @@ the following:
 4. As a bonus pass, it searches official docs for anything I mentioned but didn't explain,
    and adds clearly marked callout blocks with links
 
-The whole thing runs in one command. I review the draft, fix anything obviously wrong, and push.
+The whole thing runs in one command per video — or in a batch. To clear the back catalogue, I
+had Claude run through all 26 streams sequentially, one sub-agent per video, committing each post
+to the repo as it finished. I came back a few hours later and reviewed the results. I reviewed the
+drafts, fixed a couple of things, and pushed.
 
 It's not perfect — the transcript-based posts lack the back-and-forth of a live stream, and
 Claude occasionally fills gaps with context I'd phrase differently. But that's what the review
@@ -51,8 +54,7 @@ base. Two birds, one pipeline.
 
 ## All the Generated Posts
 
-These are the streams that have been converted so far. I'll keep adding to this list as I
-work through the back catalogue.
+26 posts, covering streams from May 2024 to February 2026. The full back catalogue.
 
 - [Building a Plug & Play Claude Code Dev Container for AL Development](/posts/claude-code-dev-container-al/) — Feb 2026
 - [AL Development with Claude Code: A Multi-Agent Workflow](/posts/al-development-claude-code-multi-agent-workflow/) — Jan 2026
