@@ -1,5 +1,5 @@
 title = "Stefan Maron blog"
-baseURL = 'https://stefanmaron.onrender.com'
+baseURL = 'https://stefanmaron.com'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
