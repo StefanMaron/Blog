@@ -1,8 +1,9 @@
 ---
 title: "Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)"
+description: "How a Claude Code skill converts YouTube coding streams to structured blog posts — auto-extracting captions, screenshots, and doc links for 26 BC stream"
 date: 2026-02-24T08:00:00+01:00
 draft: false
-tags: ['Business Central', 'Claude Code', 'AI', 'DevOps']
+tags: ['Claude Code', 'AI', 'Business Central', 'DevOps', 'GitHub Actions']
 ---
 
 I'll be honest: I'm lazy when it comes to writing blog posts. Not lazy about sharing — I try to stream
@@ -32,8 +33,8 @@ the following:
 
 The whole thing runs in one command per video — or in a batch. To clear the back catalogue, I
 had Claude run through all 26 streams sequentially, one sub-agent per video, committing each post
-to the repo as it finished. I came back a few hours later and reviewed the results. I reviewed the
-drafts, fixed a couple of things, and pushed.
+to the repo as it finished. Total wall time: 2h 34m 42s. I came back, reviewed the drafts, fixed
+a couple of things, and pushed.
 
 It's not perfect — the transcript-based posts lack the back-and-forth of a live stream, and
 Claude occasionally fills gaps with context I'd phrase differently. But that's what the review
