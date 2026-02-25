@@ -1,1 +1,218 @@
-{{- define "main" -}}{{- .Content -}}{{- end -}}
+{{- define "main" -}}
+{{- $vc := $.Site.Data.vcard -}}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ $vc.name }}</title>
+  <meta name="description" content="{{ $vc.name }}, {{ $vc.title }}">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #f2f4f6;
+      --card-bg: #ffffff;
+      --text: #1a1a2e;
+      --text-muted: #6b7280;
+      --accent: #2563eb;
+      --border: rgba(0,0,0,0.09);
+      --project-bg: #f8f9fa;
+      --shadow: 0 4px 28px rgba(0,0,0,0.09);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131418;
+        --card-bg: #1e2023;
+        --text: #e8eaed;
+        --text-muted: #9aa0a6;
+        --accent: #60a5fa;
+        --border: rgba(255,255,255,0.08);
+        --project-bg: #252830;
+        --shadow: 0 4px 28px rgba(0,0,0,0.45);
+      }
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      max-width: 440px;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    .card-header {
+      padding: 2rem 2rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid var(--border);
+    }
+
+    .name { font-size: 1.45rem; font-weight: 700; margin-bottom: 0.3rem; }
+    .job-title { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.15rem; }
+    .org { font-size: 0.83rem; color: var(--text-muted); }
+
+    /* ── Save button ── */
+    .card-actions {
+      padding: 1.25rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .btn-save {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 150ms ease;
+    }
+
+    .btn-save:hover { opacity: 0.85; }
+    .btn-save svg { flex-shrink: 0; }
+
+    /* ── Social links ── */
+    .social-links {
+      padding: 1.25rem 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      font-size: 0.84rem;
+      color: var(--text);
+      text-decoration: none;
+      transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease;
+    }
+
+    .social-link:hover {
+      background: var(--project-bg);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    /* ── Projects ── */
+    .projects { padding: 1.25rem 2rem 2rem; }
+
+    .section-title {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .project-card {
+      display: block;
+      padding: 0.85rem 1rem;
+      border-radius: 8px;
+      background: var(--project-bg);
+      border: 1px solid var(--border);
+      margin-bottom: 0.5rem;
+      text-decoration: none;
+      transition: border-color 150ms ease;
+    }
+
+    .project-card:last-child { margin-bottom: 0; }
+    .project-card:hover { border-color: var(--accent); }
+
+    .project-name {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+
+    .project-desc {
+      font-size: 0.79rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+
+    <div class="card-header">
+      <img src="{{ $vc.photo }}" alt="{{ $vc.name }}" class="avatar" width="96" height="96">
+      <h1 class="name">{{ $vc.name }}</h1>
+      <p class="job-title">{{ $vc.title }}</p>
+      <p class="org">{{ $vc.org }}</p>
+    </div>
+
+    <div class="card-actions">
+      <a href="{{ $vc.vcf }}" class="btn-save" download>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        Save Contact
+      </a>
+    </div>
+
+    <div class="social-links">
+      {{ range $vc.social }}
+      <a href="{{ .url }}" class="social-link" target="_blank" rel="noopener noreferrer">
+        {{- partial "vcard-icon.html" .icon -}}
+        {{ .name }}
+      </a>
+      {{ end }}
+    </div>
+
+    {{ with $vc.projects }}
+    <div class="projects">
+      <p class="section-title">Open Source Projects</p>
+      {{ range . }}
+      <a href="{{ .url }}" class="project-card" target="_blank" rel="noopener noreferrer">
+        <p class="project-name">{{ .name }}</p>
+        <p class="project-desc">{{ .description }}</p>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+  </div>
+</body>
+</html>
+{{- end -}}

@@ -1,0 +1,38 @@
+name: Stefan Maron
+title: Business Central Developer & Microsoft MVP
+org: Stefan Maron Consulting
+email: vcard@stefanmaron.slmail.me
+website: https://stefanmaron.com
+photo: /vcard/stefanmaron/photo.jpeg
+vcf: /vcard/stefanmaron/stefanmaron.vcf
+
+social:
+  - name: GitHub
+    url: https://github.com/StefanMaron
+    icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/stefan-maron-709928206/
+    icon: linkedin
+  - name: X / Twitter
+    url: https://twitter.com/stefanmaron
+    icon: twitter
+  - name: YouTube
+    url: https://www.youtube.com/channel/UC96RLsspoArRJu6dhwkOsWQ
+    icon: youtube
+  - name: Buy Me a Coffee
+    url: https://www.buymeacoffee.com/stefanmaron
+    icon: coffee
+
+projects:
+  - name: BusinessCentral.LinterCop
+    url: https://github.com/StefanMaron/BusinessCentral.LinterCop
+    description: Static code analysis for AL — catches errors and enforces best practices in Business Central development.
+  - name: MSDyn365BC.Code.History
+    url: https://github.com/StefanMaron/MSDyn365BC.Code.History
+    description: Full source-code history of Microsoft Dynamics 365 Business Central, updated monthly.
+  - name: MSDyn365BC.Sandbox.Code.History
+    url: https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History
+    description: Nightly sandbox source history across 50 country versions — because sandbox builds can change multiple times a day.
+  - name: BusinessCentral.Sentinel
+    url: https://github.com/StefanMaron/BusinessCentral.Sentinel
+    description: Free AppSource app that runs health checks against your BC environment and flags potential issues.
