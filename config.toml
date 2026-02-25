@@ -51,6 +51,10 @@ disqusShortname = ''
     url = '/OpenSourceALProjects/'
     weight = 30
   [[menu.main]]
+    name = 'Videos'
+    url = '/tags/videos/'
+    weight = 25
+  [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'

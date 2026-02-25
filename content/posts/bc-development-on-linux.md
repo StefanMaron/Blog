@@ -2,7 +2,7 @@
 title: "Is Linux ready for BC Development?"
 date: 2025-02-08T09:00:00+01:00
 draft: false
-tags: ['Business Central', 'AL', 'Linux', 'VS Code', 'GitHub Actions']
+tags: ['Videos', 'Business Central', 'AL', 'Linux', 'VS Code', 'GitHub Actions']
 ---
 
 Three years ago I installed Linux on a second partition, thinking I'd boot back into Windows within a week. I never did. In this episode of the BC Coding Stream I invited fellow MVP Tine Starič to go through all the questions a BC developer would actually ask before making that switch.

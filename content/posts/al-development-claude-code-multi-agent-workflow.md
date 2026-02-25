@@ -2,7 +2,7 @@
 title: "AL Development with Claude Code: A Multi-Agent Workflow"
 date: 2026-01-28T09:00:00+01:00
 draft: false
-tags: ['Business Central', 'AL', 'Claude Code', 'AI', 'DevOps']
+tags: ['Videos', 'Business Central', 'AL', 'Claude Code', 'AI', 'DevOps']
 ---
 
 I've been using Claude Code quite a bit over the past year, and I think I finally have a process that actually works for AL development. One-off prompts don't cut it for anything non-trivial — AL is niche enough that LLMs struggle without guidance, and large refactoring tasks blow up the context window within a few agent calls. What changed things for me was switching to a sub-agent workflow.

@@ -2,7 +2,7 @@
 title: 'Video series: How do I?'
 date: Sun, 28 Feb 2021 08:54:16 +0000
 draft: false
-tags: ['Business Central', 'Videos']
+tags: ['Business Central']
 ---
 
 I just joined the hype train and started to record AL learning videos!
