@@ -1,7 +1,7 @@
 ---
 title: "Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)"
 description: "How a Claude Code skill converts YouTube coding streams to structured blog posts — auto-extracting captions, screenshots, and doc links for 26 BC stream"
-date: 2026-02-24T08:00:00+01:00
+date: 2026-02-24T16:00:00+01:00
 draft: false
 tags: ['Claude Code', 'AI', 'Business Central', 'DevOps', 'GitHub Actions']
 ---
