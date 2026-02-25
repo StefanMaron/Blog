@@ -37,6 +37,8 @@ Rather than shipping a raw `devcontainer.json` + Dockerfile that people have to 
 
 Claude restructured the entire repository accordingly, generated a release pipeline with tests, created the GitHub repository, and pushed everything — including noticing that the GitHub Actions workflow had a 403 permissions issue and fixing it on its own before I even noticed. That level of autonomous handling still surprises me a bit. You don't get that with Copilot.
 
+> **📖 Docs:** The Dev Container Features spec, including how to author and distribute your own features via GHCR, is at [containers.dev/implementors/features](https://containers.dev/implementors/features/). The [devcontainers/feature-starter](https://github.com/devcontainers/feature-starter) repo is the recommended bootstrap template.
+
 [![The feature's install.sh that installs Claude Code via the native installer (no Node.js dependency)](/images/claude-code-dev-container-al/03-feature-install-script.jpg)](https://www.youtube.com/live/ecYXnXULijI?t=1100)
 
 ## Authentication Debugging
@@ -89,6 +91,13 @@ Deep into the session, with about 75% context consumed, Claude surfaced somethin
 
 That's obviously the right foundation. We'd been building most of what already exists. The official container gives you network isolation for free; what it doesn't include is the AL-specific Claude configuration, shared volume auth persistence, and AL tooling.
 
+> **📖 Docs:** Anthropic publishes their own dev container feature at [github.com/anthropics/devcontainer-features](https://github.com/anthropics/devcontainer-features). You can reference it directly in any `devcontainer.json` with a single line:
+> ```json
+> "features": {
+>   "ghcr.io/anthropics/devcontainer-features/claude-code:1": {}
+> }
+> ```
+
 That's what Part 2 will be.
 
 ## What's Next
@@ -98,7 +107,9 @@ The current state of [claudeCodeAlDevContainer](https://github.com/StefanMaron/c
 What's still missing:
 - An AL-specific `~/.claude` volume that ships with instructions, commands, and agent profiles pre-configured — so you never need to copy CLAUDE.md instructions into individual AL projects
 - Using Anthropic's official container as the base instead of rolling our own firewall solution
-- Setting `--dangerously-skip-permissions` globally via `~/.claude/settings.json` rather than passing it on the CLI (there's a `permissions.defaultMode: "bypassPermissions"` setting that should handle this)
+- Setting bypass permissions globally via `~/.claude/settings.json` rather than passing it on the CLI — this is confirmed to work, the exact config is `{ "defaultMode": "bypassPermissions" }`
+
+> **📖 Docs:** The full permissions reference including all `defaultMode` values (`default`, `acceptEdits`, `plan`, `bypassPermissions`) is at [code.claude.com/docs/en/permissions](https://code.claude.com/docs/en/permissions). The `bypassPermissions` mode skips all prompts and is intended specifically for isolated container environments like this one.
 
 I'll continue this live on stream. If you want to follow along or try the current state yourself, the repo is already public.
 
