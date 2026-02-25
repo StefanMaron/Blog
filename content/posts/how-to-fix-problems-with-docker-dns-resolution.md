@@ -22,7 +22,7 @@ After that you can ping google:
 ping google.com
 ```
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-1.png)
+![](/images/migrated/2020-07-image-1.png)
 
 #### My first attempt: Change the metric of the network interfaces
 
@@ -36,7 +36,7 @@ Get-NetIPInterface -AddressFamily IPv4 | Sort-Object -Property InterfaceMetric -
 
 This is how it looks for me:
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image.png)
+![](/images/migrated/2020-07-image.png)
 
 Now it is important to know, that Docker uses the DNS settings from the host and it seems to use the interface with the highest priority for this.
 
@@ -64,6 +64,6 @@ After another session with google it turned out that you can simply tell docker 
 
 Note: I use the public google DNS Server. You can of course use another one or even multiple, as this setting is an array ;)
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-2.png)
+![](/images/migrated/2020-07-image-2.png)
 
 Don't forget to "Apply & Restart" ;)

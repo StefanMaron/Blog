@@ -8,7 +8,7 @@ tags: ['Business Central', 'Docker', 'DevOps']
 
 I just stumbled over this twitter post from Steve
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image-3.png)
+![](/images/migrated/2021-02-image-3.png)
 
 And I asked myself the same question already some time ago. And guess what, this is super easy ;)
 
@@ -30,7 +30,7 @@ docker commit <ContainerToCopy> backup:containertocopy
 
 "backup:containertocopy" is the name of the new image. If you have the docker extension for vs code you will see your image in the side bar like that:
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image-4.png)
+![](/images/migrated/2021-02-image-4.png)
 
 Create a new container from the image
 -------------------------------------
@@ -57,6 +57,6 @@ New-BcContainer \`
 
 This also should speed up your container creation process a lot as nothing needs to be installed inside the container ;)
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image-5.png)
+![](/images/migrated/2021-02-image-5.png)
 
 Thanks for reading!

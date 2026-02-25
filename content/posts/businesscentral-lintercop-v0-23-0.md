@@ -10,19 +10,19 @@ A new version of the [BusinessCentral.LinterCop](https://github.com/StefanMaron/
 
 Special thanks to Rob van Bekkum [@rvanbekkum](https://twitter.com/rvanbekkum) who wrote two new rules!
 
-![](https://stefanmaron.files.wordpress.com/2022/01/image.png)
+![](/images/migrated/2022-01-image.png)
 
 ### Added Help links to wiki
 
 Microsoft already did this in the december release I think, and now the LinterCop also includes direct links to the wiki on GitHub.
 
-![](https://stefanmaron.files.wordpress.com/2022/01/image-1.png)
+![](/images/migrated/2022-01-image-1.png)
 
 Just by clicking for example on "LC0015" you can open the wiki page for this rule on the GitHub Repository [https://github.com/StefanMaron/BusinessCentral.LinterCop/wiki/LC0015](https://github.com/StefanMaron/BusinessCentral.LinterCop/wiki/LC0015)
 
 You can also manually browse the wiki pages for the rules by going to "Wiki" on the [repository](https://github.com/StefanMaron/BusinessCentral.LinterCop/wiki)
 
-![](https://stefanmaron.files.wordpress.com/2022/01/image-2.png)
+![](/images/migrated/2022-01-image-2.png)
 
 The rules are described at a minimum right now. If you have any questions about a certain rule, feel free to start a [discussion](https://github.com/StefanMaron/BusinessCentral.LinterCop/discussions) and I will answer it and also update the wiki later on.
 

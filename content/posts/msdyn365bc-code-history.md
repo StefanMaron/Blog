@@ -22,7 +22,7 @@ I wrote a PowerShell script to download, extract and commit all OnPrem versions,
 
 This is the folder structure:
 
-![](https://stefanmaron.files.wordpress.com/2021/01/image-1.png)
+![](/images/migrated/2021-01-image-1.png)
 
 I created a branch for every country and major version (for example "de-17"). This means that after 16.5 the next version 17.0. So you can compare 17.0 to 16.5. But in the 16 branch the next version after 16.5 would be 16.6 and so on. Like this you can compare every version by the logical order.
 
@@ -34,19 +34,19 @@ For a quick search you can use the "blame" function directly in GitHub:
 
 You "Go to file":
 
-![](https://stefanmaron.files.wordpress.com/2021/01/image-2.png)
+![](/images/migrated/2021-01-image-2.png)
 
 Then you can just search though all the files (all objects):
 
-![](https://stefanmaron.files.wordpress.com/2021/01/image-3.png)
+![](/images/migrated/2021-01-image-3.png)
 
 When you opened the file you want to check, just activate the "blame" view on the right side:
 
-![](https://stefanmaron.files.wordpress.com/2021/01/image-4.png)
+![](/images/migrated/2021-01-image-4.png)
 
 Now you can see, for every line, when it was changed last:
 
-![](https://stefanmaron.files.wordpress.com/2021/01/image-5.png)
+![](/images/migrated/2021-01-image-5.png)
 
 By a click on that version you can open up all changes that where made with this CU and even open up the repository in this particular version to look at different files.
 

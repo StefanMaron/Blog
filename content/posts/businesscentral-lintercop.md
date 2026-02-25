@@ -12,9 +12,9 @@ Recently I realized that the AL Compiler has a parameter "/analyzer:" and accept
 
 I took that chance and reverse engineered the interface a CodeCop.dll needs to implement. The result seems to be a working BusinessCentral.LinterCop:
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image.png)
+![](/images/migrated/2021-09-image.png)
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image-1.png)
+![](/images/migrated/2021-09-image-1.png)
 
 ### Call for community Help!
 

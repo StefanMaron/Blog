@@ -26,7 +26,7 @@ Now it checks (almost) everything in code. Meaning every keyword in object defin
 
 See for yourself:
 
-![](https://stefanmaron.files.wordpress.com/2021/11/fdx-yqfxsaayjtv.png)
+![](/images/migrated/2021-11-fdx-yqfxsaayjtv.png)
 
 ##### **New rule for "NotBlank" property on primary** **key fields**
 

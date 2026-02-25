@@ -8,7 +8,7 @@ tags: ['Business Central', 'AL', 'LinterCop', 'VS Code', 'Code Quality']
 
 After quite some analyzing and reverse engineering, I got it working!
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image-2.png)
+![](/images/migrated/2021-09-image-2.png)
 
 The custom code analyzer BusinessCentral.LinterCop is running included in VS Code.
 
@@ -17,11 +17,11 @@ The custom code analyzer BusinessCentral.LinterCop is running included in VS Cod
 First, go to my GitHub and download the latest binary [here](https://github.com/StefanMaron/BusinessCentral.LinterCop/releases).  
 Then just place it on your hard drive, for example "C:\\ALCustomCops\\"
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image-3.png)
+![](/images/migrated/2021-09-image-3.png)
 
 Then go to your settings file and insert it in the "al.codeAnalyzers" like this:
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image-4.png)
+![](/images/migrated/2021-09-image-4.png)
 
 And thats it! Pretty short Blog but this should get you going ;)
 
@@ -35,7 +35,7 @@ I got some nice feedback from the community pointing out that this process of ma
 
 To solve this, I created a small [VS Code extension](https://marketplace.visualstudio.com/items?itemName=StefanMaron.businesscentral-lintercop&ssr=false#overview)!
 
-![](https://stefanmaron.files.wordpress.com/2021/09/image-5.png)
+![](/images/migrated/2021-09-image-5.png)
 
 This extensions provides auto updates for the BusinessCentral.LinterCop.
 

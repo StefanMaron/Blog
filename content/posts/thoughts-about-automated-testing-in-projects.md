@@ -16,7 +16,7 @@ I don't remember where I got this from, but it is somehow burned in my head. Tha
 
 So I asked you folks about this, what your opinion is:
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image.png)
+![](/images/migrated/2021-02-image.png)
 
 And the result surprised me. I did expect that you would rather be on the "test are worth" side, but not that much. I mean, only one vote went for "not worth at all"!
 
@@ -24,7 +24,7 @@ And the result surprised me. I did expect that you would rather be on the "test 
 
 I think the main question we should be asking is "Does the customer want to have a tested app?"
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image-1.png)
+![](/images/migrated/2021-02-image-1.png)
 
 I like the idea to think about test (in general) like an insurance or like the net of an circus acrobat. Most of the time you know what you are doing when you develop an app. If not you probably would not be working as a developer. But what happens if you have a bad day? Or simply do a mistake? We are only humans. Everyone makes mistakes. if you don't see the mistake before the code goes to production, it can have quite some impact.
 
@@ -42,7 +42,7 @@ And this is what my feeling in my last project was. It felt like we just deliver
 
 #### "The customer wants working code!"
 
-![](https://stefanmaron.files.wordpress.com/2021/02/image-2.png)
+![](/images/migrated/2021-02-image-2.png)
 
 So if we think about quality, test are a must. There is no question about whether or not to test. And then, automating these tests, saves time and money.
 

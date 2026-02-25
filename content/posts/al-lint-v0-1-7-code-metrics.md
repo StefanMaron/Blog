@@ -16,7 +16,7 @@ So with code metrics you have a clear number which tells you if your code got to
 
 They are now displayed in the bottom line of VS Code
 
-![](https://stefanmaron.files.wordpress.com/2020/08/image-12.png)
+![](/images/migrated/2020-08-image-12.png)
 
 #### Cyclomatic Complexity
 

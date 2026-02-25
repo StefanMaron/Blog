@@ -14,7 +14,7 @@ For my example I used a normal NAV 2018 container without any special setting. I
 
 If you created your docker container, you should be able to connect to the SQL Server using the SQL Server management studio with the container name as server and the username and password like you use for NAV in this container.
 
-![](https://stefanmaron.files.wordpress.com/2020/09/image.png)
+![](/images/migrated/2020-09-image.png)
 
 First script you need to run is this one. It enables the XP\_CMDSHELL which is needed to run finsql.exe from SQL Server: ([MS Docs](https://docs.microsoft.com/de-de/sql/database-engine/configure-windows/xp-cmdshell-server-configuration-option?view=sql-server-ver15))
 
@@ -110,7 +110,7 @@ At the end of the script you can see a few settings. If you use the same environ
 
 Next, you need to create the folder structure:
 
-![](https://stefanmaron.files.wordpress.com/2020/09/image-1.png)
+![](/images/migrated/2020-09-image-1.png)
 
 The objects are sorted automatically into this folders. And you are ready to go!
 
@@ -118,11 +118,11 @@ The objects are sorted automatically into this folders. And you are ready to go!
 
 If anything runs into an error, for example a folder is missing, the finsql.exe creates a log.txt:
 
-![](https://stefanmaron.files.wordpress.com/2020/09/image-2.png)
+![](/images/migrated/2020-09-image-2.png)
 
 In this file you can read what is going wrong:
 
-![](https://stefanmaron.files.wordpress.com/2020/09/image-3.png)
+![](/images/migrated/2020-09-image-3.png)
 
 I hope I did not forget anything!  
 Happy coding ;)

@@ -23,7 +23,7 @@ Background tasks
 
 I created a figure to show the concept.  
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-12.png)
+![](/images/migrated/2020-07-image-12.png)
 
 Normally each user session runs in their own context and does one task after the other. But if you send one task to run in background, a new session is startet and runs parallel to the user session.
 
@@ -36,7 +36,7 @@ Asyncronous development with a background queue
 
 Again first the concept figure.
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-11.png)
+![](/images/migrated/2020-07-image-11.png)
 
 If you start a background task like explained before it will run directly and on the same server instance as the user session is started from. But sometimes you may want to run something in background but it also can run during night times?
 

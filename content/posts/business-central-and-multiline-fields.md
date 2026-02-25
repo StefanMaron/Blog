@@ -12,17 +12,17 @@ In the web client this problem was not solved by now. We have fields with length
 
 If you go the normal way you use this:
 
-![](https://stefanmaron.files.wordpress.com/2020/08/image-13.png)
+![](/images/migrated/2020-08-image-13.png)
 
 But the result is frustrating:
 
-![](https://stefanmaron.files.wordpress.com/2020/08/image-14.png)
+![](/images/migrated/2020-08-image-14.png)
 
 Correctly! We get three lines of text. And I tried everything with groups and grids. It did not change.
 
 But this post is not about how bad everything is, I want to present you a solution how this can be done better without any custom control addin.
 
-![](https://stefanmaron.files.wordpress.com/2020/08/image-15.png)
+![](/images/migrated/2020-08-image-15.png)
 
 I may introduce you to the "Microsoft.Dynamics.Nav.Client.WebPageViewer". This is an awesome small controladdin shipped by microsoft. You can not only embed webpages in Buisness Central but you can also pass your own html!
 

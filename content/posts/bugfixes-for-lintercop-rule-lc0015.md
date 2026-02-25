@@ -8,7 +8,7 @@ tags: ['Business Central', 'AL', 'LinterCop', 'Permissions', 'Code Quality']
 
 I just released a new version for the [BusinessCentral.LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop).
 
-![](https://stefanmaron.files.wordpress.com/2022/02/image.png)
+![](/images/migrated/2022-02-image.png)
 
 This rule is similar to the [PTE0004](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/analyzers/pertenantextensioncop-pte0004) from Microsoft which checks for your tables to have a TableData permission set. All the other permissions are not covered.
 

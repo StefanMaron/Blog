@@ -22,7 +22,7 @@ Yes, this is correct. If you want to run things in background you need a Codeuni
 
 So I created a Codeunit to do some simple checks on a customer record:
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-13.png)
+![](/images/migrated/2020-07-image-13.png)
 
 For this kind of Codeunits waldo's Method-Codeunit-Pattern comes in handy. To use it you can install the [CRS VS Code extension](https://marketplace.visualstudio.com/items?itemName=waldo.crs-al-language-extension) and use the snippet "tcodeunittcodeunitMethodWithoutUIwaldo". Just the public procedure needs to be replaced with the OnRun trigger and you need to set the TableNo property.
 
@@ -34,7 +34,7 @@ Note that you can not have any GUI interactions in this code, as it runs in back
 
 After you refactored your code to a separate Codeunit you just need to call it from the OnBeforeModify() trigger of the customer.
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-14.png)
+![](/images/migrated/2020-07-image-14.png)
 
 This way, only the start of the new session happens OnModify() and the user does not need to wait for the whole check logic to complete.
 

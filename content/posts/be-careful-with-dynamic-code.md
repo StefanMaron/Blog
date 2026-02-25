@@ -12,13 +12,13 @@ At least this is the way I remember my first solutions I build when I first lear
 
 But...
 
-![](https://stefanmaron.files.wordpress.com/2021/08/ae207372837cec0d56db1db481893176.jpg)
+![](/images/migrated/2021-08-ae207372837cec0d56db1db481893176.jpg)
 
 I mean, everyone keeps telling that you should be careful when using those because it can get slow. And I did not listen as good as I should have :D
 
 Recently I got a task to analyze performance problems in a customer database and I decided to give the Performance Toolkit a try. I started with my test runs on a database without any custom app and then installed them again one by one. This was the result:
 
-![](https://stefanmaron.files.wordpress.com/2021/08/image.png)
+![](/images/migrated/2021-08-image.png)
 
 I believe the huge peak was due to caching which first needed to be build, but you can see that the runtime never got back to normal again. And we are not talking about 20% performance loss, more likely about 650%. The time needed to modify a sales header went from about 6 ms to 4500 ms. That is almost 5 seconds to wait on each modify of a sales header.
 

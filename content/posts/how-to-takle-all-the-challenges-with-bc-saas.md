@@ -27,9 +27,9 @@ Lets consider the same customer with a custom solution or piece of code in a Saa
 
 But the PTE he uses now needs to be upgraded every.single.month! And this brings up some new challenges for the developer. And by now we all now what this is, Steve talked about this in his video.
 
-![](https://stefanmaron.files.wordpress.com/2021/12/image.png)
+![](/images/migrated/2021-12-image.png)
 
-![](https://stefanmaron.files.wordpress.com/2021/12/image-1.png)
+![](/images/migrated/2021-12-image-1.png)
 
 But all this is nothing new in the software industry, its only somewhat new for NAV/BC people. Its "professional" software development.
 

@@ -14,7 +14,7 @@ Then I started to write tests for my app and I needed to include -installTestLib
 
 Tons of lines of these:
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image-9.png)
+![](/images/migrated/2021-03-image-9.png)
 
 After a few runs I still noticed those, and wondered: **Are the test libraries not included in the image?** The answer is **No!**
 
@@ -28,7 +28,7 @@ New-BcImage -artifactUrl (Get-BCArtifactUrl -version 17.4) -imageName myown -inc
 
 You can created the image yourself first and specify to include the image! When you create a container next time you will notice this:
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image-6.png)
+![](/images/migrated/2021-03-image-6.png)
 
 Even if you specify the -includeTestToolkit param in your container creation script, the apps will just be skipped.
 
@@ -36,9 +36,9 @@ Even if you specify the -includeTestToolkit param in your container creation scr
 
 Well, I compared it as good as I could on my machine and I got this results:
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image-8.png)
+![](/images/migrated/2021-03-image-8.png)
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image-7.png)
+![](/images/migrated/2021-03-image-7.png)
 
 For me this is almost 3 minutes faster!
 

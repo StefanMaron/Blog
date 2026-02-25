@@ -54,7 +54,7 @@ Of course everything gains more impact with more records, but I always assume th
 
 My first attempt to prove my assumptions was to measure the difference in performance of FindSet and FindFirst. So I set up some disciplines and tested both commands how they performe (for details you can see what I did in my [GitHub](https://github.com/StefanMaron/Coding4Performance) ;) ):
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-19.png)
+![](/images/migrated/2020-07-image-19.png)
 
 I did not expect the result at all. They performe nearly identical.
 
@@ -98,7 +98,7 @@ Error(
 );
 ```
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-21.png)
+![](/images/migrated/2020-07-image-21.png)
 
 **First** thing to notice is: FindSet without a Next() does really only read one single row! I do not know the SQL Server details on this one and how its possible to achieve something like this, but it seems to work and its fast.
 

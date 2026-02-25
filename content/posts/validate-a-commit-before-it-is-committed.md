@@ -8,7 +8,7 @@ tags: ['Business Central', 'AL', 'Git', 'DevOps', 'AL-Go']
 
 Recently there was this question about how to do version numbering when working with AL Apps and automatic builds:
 
-![](https://stefanmaron.files.wordpress.com/2021/06/image.png)
+![](/images/migrated/2021-06-image.png)
 
 It started a discussion about when to update which part of the version number and how that is done. The discussion will be continued today (10th June 2021 9pm CEST) on Discord if you are interested to join/listen:
 
@@ -69,7 +69,7 @@ In the first line I get every file which is staged. If you do not stage a change
 
 After that I check the Build and Revision number. If one is not 0 an error is thrown:
 
-![](https://stefanmaron.files.wordpress.com/2021/06/image-1.png)
+![](/images/migrated/2021-06-image-1.png)
 
 And that's it 😎
 

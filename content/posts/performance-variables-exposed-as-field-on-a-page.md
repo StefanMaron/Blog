@@ -14,7 +14,7 @@ But luckily we (or most of us :p) learned this lessen already in C/AL times: Jus
 
 And a solution could look like this if you are done:
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image.png)
+![](/images/migrated/2021-03-image.png)
 
 I finished hacking this in my vs Code and tried it. Everything was displayed correctly. Now the fine tuning.
 
@@ -33,7 +33,7 @@ I continued thinking about doing some kind of hack to achieve this. Maybe a cust
 
 Long story short, I asked a colleague for his opinion. It was a 5 minutes call and my problem was solved:
 
-![](https://stefanmaron.files.wordpress.com/2021/03/image-1.png)
+![](/images/migrated/2021-03-image-1.png)
 
 You can skip the whole variable assignment if you need to evaluate it for every line anyways.
 

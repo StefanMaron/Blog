@@ -20,4 +20,4 @@ Also, this might be a good way to just collect some resources and links from the
 *   [https://github.com/StefanMaron/BusinessCentral.LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop)
 *   I will add the recording once I see its available ;)
 
-![](https://stefanmaron.files.wordpress.com/2023/06/img_8384.jpeg)
+![](/images/migrated/2023-06-img_8384.jpeg)

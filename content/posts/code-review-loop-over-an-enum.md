@@ -62,7 +62,7 @@ Line 7: With the function "FromInteger" we can convert an ordinal to an actual e
 
 EDIT: Turns out there is always a better way to do it:
 
-![](https://stefanmaron.files.wordpress.com/2021/04/image.png)
+![](/images/migrated/2021-04-image.png)
 
 Why does it matter? Both functions do exactly the same
 ------------------------------------------------------

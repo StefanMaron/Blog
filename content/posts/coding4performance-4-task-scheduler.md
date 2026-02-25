@@ -12,11 +12,11 @@ The key concept of the task scheduler is a queue table. If you call the CreateTa
 
 The reason why this is more flexible on which server instance to use, is the service level option to specify whether or not this instance should run the task scheduler.
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-15.png)
+![](/images/migrated/2020-07-image-15.png)
 
 If you work with docker then you need to add the parameter -enableTaskScheduler to your New-BcContainer command:
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-16.png)
+![](/images/migrated/2020-07-image-16.png)
 
 So what you want is typically one (or more, depends on number of users) instance for the user sessions where the task scheduler is disabled. And at least one (or, again, more depending of number of task you want to run in background) instance for running the task scheduler, obviously with the task scheduler being enabled. The server instance(s) for the task scheduler can also be located on a different server machine for optimal load distribution.
 
@@ -24,11 +24,11 @@ There is one more major advantage on the task scheduler combined with server ins
 
 If you did the example of my previous blog about [Start Session](https://stefanmaron.wordpress.com/2020/07/11/coding4performance-3-start-session/), this is all you need to change to switch for using the task scheduler:
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-17.png)
+![](/images/migrated/2020-07-image-17.png)
 
 For testing the code you change the third parameter "IsReady" to false and open table number 2000000175 [http://<ServerName>/<InstanceName>/?table=2000000175](http://bc16perftest/BC/?table=2000000175) you can see the task you just created.
 
-![](https://stefanmaron.files.wordpress.com/2020/07/image-18.png)
+![](/images/migrated/2020-07-image-18.png)
 
 As you can see in the picture in the column "NotBefore" you can even schedule a task to run at night times for example, to further reduce load during the normal business hours.
 
