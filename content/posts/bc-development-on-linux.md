@@ -62,7 +62,29 @@ If you're doing a lot of report work, this is the one friction point you'll regu
 
 Windows containers cannot run on Linux. That's not a Linux limitation specifically — it's how Docker works. A container shares the kernel with the host, so Windows containers require a Windows host. When you run Linux containers on Windows, Docker actually runs them inside a lightweight Linux VM.
 
-I run my BC Docker containers inside the same Windows VM I use for reports. I then use SSH port forwarding to tunnel the BC ports to localhost on my Linux machine. In practice I just do `localhost:8080` and everything works. There's a short thread on Bluesky where I worked through the setup if you want the specifics.
+I run my BC Docker containers inside the same Windows VM I use for reports. I then use SSH port forwarding to tunnel the BC ports to localhost on my Linux machine — something like:
+
+```bash
+ssh -L 8080:localhost:8080 -L 7049:localhost:7049 -N user@windows-vm
+```
+
+After that, VS Code and the AL debugger just see `localhost` and have no idea there's an SSH tunnel in the middle. The `-N` flag keeps the tunnel open without launching a shell. I just do `localhost:8080` and everything works.
+
+## BC Natively on Linux: The Experiment
+
+During the stream I mentioned that Torben Leth had done a "see if I could" project to run the BC service tier natively on Linux using Wine. He forked Wine and patched it to fill in the missing Windows API pieces that BC depends on. At the time I couldn't say much more than "proof of concept, not daily-driver usable."
+
+Since then, Torben published the full details. He got compilation, app publishing, and test runs working. The web client was still broken when he wrote it up, but the numbers he measured on GitHub Actions runners are striking:
+
+| | Linux | Windows |
+|--|--|--|
+| First working build | 13.4 min | 18.4 min |
+| Optimized build | 6.3 min | 18 min |
+| Container startup | ~5 min | ~16 min |
+
+The implementation required patching Wine's HTTP.sys layer (missing connection lifecycle functions), adding Kerberos key derivation support to Wine's bcrypt, and bypassing PowerShell for database setup entirely. It's not simple, but it's real.
+
+> **📖 Read more:** Torben's write-up [Business Central on Linux? Here, hold my beer!](https://blog.sshadows.dk/2026/01/31/business-central-on-linux-here-hold-my-beer/) has the full implementation notes and links to the Docker images, including a `BCOnLinuxBase` image I put together once the approach was proven.
 
 ## GitHub Codespaces for AL Development
 
@@ -96,7 +118,9 @@ If you want to try Linux without destroying your Windows installation, do what I
 
 For distribution, start with Ubuntu. It has the best hardware support, the largest community, and the most beginner-friendly tooling. Once you're comfortable, you can explore Debian (what Ubuntu is built on, more minimal), and eventually Arch if you want full control over everything — though Arch is not a good starting point.
 
-I've gone Ubuntu → Debian → Arch over three years. On my current Arch setup I'm also running i3, a tiling window manager that replaces the conventional desktop. Everything is full-screen by default and windows split automatically rather than floating. Way less overhead than GNOME, and keyboard-driven. But that's firmly in the "once you're comfortable" category.
+I've gone Ubuntu → Debian → Arch over three years. On my current Arch setup I'm also running i3, a tiling window manager. I showed this briefly during the stream: I logged out of GNOME, selected i3 at the login screen (it coexists with GNOME — you can switch on every login), and opened a few terminals. They tiled side by side automatically. Opening VS Code put it on a third workspace; I switched between them with a keyboard shortcut. No mouse, no overlapping windows, no taskbar.
+
+If you're used to Alt+Tab, this sounds weird. After a while it makes the workflow feel faster because nothing is ever hidden behind something else. Way less overhead than GNOME, and nothing you need to configure to work with BC development. But it's firmly in the "once you're comfortable" category — start with GNOME.
 
 ## Performance
 
