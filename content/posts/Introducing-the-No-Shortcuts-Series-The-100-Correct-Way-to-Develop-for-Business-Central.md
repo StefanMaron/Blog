@@ -1,5 +1,5 @@
 ---
-title: “Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central”
+title: 'Introducing the “No Shortcuts” Series: The 100% Correct Way to Develop for Business Central'
 description: “A best-practice guide to Business Central AL development — upgrade-safe, AppSource-ready patterns for ISVs who want to do it right.”
 date: 2025-06-02T07:38:54+02:00
 draft: false
