@@ -1,6 +1,6 @@
 ---
 title: "Continuing the NuGet Installer - BC Coding Stream"
-date: 2024-10-04T09:00:00+01:00
+date: 2024-10-05T09:00:00+01:00
 draft: false
 tags: ['Videos', 'Business Central', 'AL', 'NuGet', 'DevOps']
 ---
