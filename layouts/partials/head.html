@@ -1,4 +1,5 @@
 <head>
+    <meta name="google-site-verification" content="SAqn8WoiE7bPS0kworuV7TLOmLSmKzwVJgticaRUfms" />
     {{- partial "meta/main.html" . }}
     {{- hugo.Generator }}
 
@@ -22,7 +23,6 @@
     <link href="{{ $style.RelPermalink }}" rel="stylesheet">
     {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint }}
     <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
-    <link rel="stylesheet" href="/css/custom.css">
 
     {{/* Favicons */}}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "icons/apple-touch-icon.png").RelPermalink }}">
