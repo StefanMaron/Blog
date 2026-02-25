@@ -1,7 +1,7 @@
 ---
 title: "Turning My Coding Streams Into Blog Posts (With a Little Help From Claude)"
 date: 2026-02-24T08:00:00+01:00
-draft: true
+draft: false
 tags: ['Business Central', 'Claude Code', 'AI', 'DevOps']
 ---
 
@@ -54,4 +54,29 @@ base. Two birds, one pipeline.
 These are the streams that have been converted so far. I'll keep adding to this list as I
 work through the back catalogue.
 
-<!-- TODO: add links as posts are generated -->
+- [Building a Plug & Play Claude Code Dev Container for AL Development](/posts/claude-code-dev-container-al/) — Feb 2026
+- [AL Development with Claude Code: A Multi-Agent Workflow](/posts/al-development-claude-code-multi-agent-workflow/) — Jan 2026
+- [Is Linux ready for BC Development?](/posts/bc-development-on-linux/) — Feb 2025
+- [Building Sentinel: Configurable Telemetry and a Better Alert View](/posts/sentinel-telemetry-card-page/) — Feb 2025
+- [AppSource Monetization and Entitlements in Business Central](/posts/appsource-entitlements-business-central/) — Jan 2025
+- [Documenting BusinessCentral.Sentinel — AI-Generated Docs, Better Alert Descriptions, and Company Deletion Fun](/posts/businesscentral-sentinel-documentation-stream/) — Dec 2024
+- [Building BusinessCentral.Sentinel from Scratch: The First Six Rules](/posts/businesscentral-sentinel-first-rules/) — Nov 2024
+- [MsDyn365BC.Code.History Tips & Tricks](/posts/msdyn365bc-code-history-tips-tricks/) — Oct 2024
+- [How to use Interfaces in Business Central](/posts/interfaces-in-business-central/) — Oct 2024
+- [Continuing the NuGet Installer](/posts/nuget-installer-bc-coding-stream-2/) — Oct 2024
+- [Creating a NuGet Installer Extension for Business Central](/posts/nuget-installer-extension-bc/) — Oct 2024
+- [How Do Database Transactions Actually Work in Business Central?](/posts/bc-database-transactions-deep-dive/) — Sep 2024
+- [LinterCop Development: Fixing LC0068 False Positives and the Sandbox Code History Repo](/posts/lintercop-lc0068-indirect-permissions-fixes/) — Sep 2024
+- [Basic Repo Setup with AL-Go](/posts/basic-repo-setup-with-al-go/) — Aug 2024
+- [Indirect Permissions in Business Central — What They Are and Why They Matter](/posts/indirect-permissions-bc-stream/) — Aug 2024
+- [Table Keys and SQL Indexes in Business Central](/posts/table-keys-and-sql-indexes-in-business-central/) — Jul 2024
+- [MSDyn365BC.Ntfy Development Session — Redesigning the BC Push Notification App](/posts/msdyn365bc-ntfy-development-session/) — Jul 2024
+- [BCv24 Error Info Wrapper — Backporting the Fluent ErrorInfo API](/posts/bcv24-error-info-wrapper/) — Jul 2024
+- [Creating the ErrorInfo Wrapper](/posts/creating-the-errorinfo-wrapper/) — Jul 2024
+- [Reviewing Microsoft's AI Test Toolkit PR in BCApps — Guideline Fixes Live](/posts/reviewing-ai-test-toolkit-pr-bcapps-guideline-fixes/) — Jul 2024
+- [Write-Off App: AppSource Finishing Touches](/posts/write-off-app-abcsource-finishing-touches/) — Jun 2024
+- [Build a Better Way to Catch Errors (Part 2) — Without the Test Framework](/posts/build-better-error-catching-without-test-framework/) — May 2024
+- [Build a Better Way to Catch Errors (Part 1)](/posts/build-better-error-catching-part-1/) — May 2024
+- [FilterPageBuilder.GetView, Language Bugs, and Adding Spare Brained Licensing](/posts/filterpagebuilder-getview-language-bug-spare-brained-licensing/) — May 2024
+- [Building an Automatic Write-Off Tool in AL: Adding Overpayments with an Interface Pattern](/posts/al-automatic-write-offs-overpayments-interface-pattern/) — May 2024
+- [Writing Testable AL Code: Building a Write-Off App for AppSource](/posts/al-unit-testing-writeoff-app-appource/) — May 2024
