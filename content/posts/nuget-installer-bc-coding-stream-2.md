@@ -1,8 +1,9 @@
 ---
 title: "Continuing the NuGet Installer - BC Coding Stream"
+description: "Part 2 of building a NuGet installer for Business Central: version selection, NavxManifest parsing, the NAVX proprietary format mystery, and dependency"
 date: 2024-10-05T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'NuGet', 'DevOps']
+tags: ['Business Central', 'AL', 'NuGet', 'AL-Go', 'DevOps', 'Videos']
 ---
 
 This stream picked up where the previous one left off: building a Business Central extension that can browse NuGet feeds, pull down `.app` packages, and install them directly from within BC. My brother Christian joined for a pair-programming session — first time doing a dual-stream — so there was a lot of live code review and back-and-forth alongside the actual development.

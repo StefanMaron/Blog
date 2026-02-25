@@ -1,8 +1,9 @@
 ---
 title: 'Be careful with dynamic code'
+description: "How overusing RecordRef and FieldRef in Business Central caused a 650% performance regression on sales header modifications — and why interfaces fixed it"
 date: Wed, 11 Aug 2021 07:09:13 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'BusinessCentral', 'CleanCode', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Interfaces', 'Code Quality']
 ---
 
 I believe there is a time in every AL developers live where he discovers the power of RecordRef and FieldRef. It is surely Incredible what you can achieve with these tools and how fast you can deliver a pretty good working piece of code.

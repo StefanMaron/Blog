@@ -1,8 +1,9 @@
 ---
 title: 'BusinessCentral.LinterCop goes VS Code!'
+description: "Install LinterCop in VS Code for AL development — the auto-updating extension adds custom code analysis rules via your al.codeAnalyzers settings."
 date: Tue, 21 Sep 2021 15:59:09 +0000
 draft: false
-tags: ['AL Lint', 'Allgemein', 'Business Central', 'Code review']
+tags: ['Business Central', 'AL', 'LinterCop', 'VS Code', 'Code Quality']
 ---
 
 After quite some analyzing and reverse engineering, I got it working!

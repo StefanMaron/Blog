@@ -1,8 +1,9 @@
 ---
 title: "Table Keys and SQL Indexes in Business Central"
+description: "Deep dive into how AL table keys translate to SQL indexes — real query plans, SIFT views, IncludedFields, write cost benchmarks, and Database.AlterKey."
 date: 2024-07-20T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Performance']
+tags: ['Videos', 'Business Central', 'AL', 'Database', 'Performance']
 ---
 
 I've wanted to dig into this topic properly for a long time. How do AL table keys actually translate to SQL Server indexes? What SQL does Business Central generate from your AL queries? And does adding a key actually help — or can it hurt? This stream was my attempt to answer all of that with real numbers.

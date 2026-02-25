@@ -1,8 +1,9 @@
 ---
 title: 'VS Code extension: AL Lint'
+description: "Stefan Maron takes over the AL Lint VS Code extension — adding a function length check and planning clean code and performance rules beyond the built-in"
 date: Sat, 08 Aug 2020 13:34:19 +0000
 draft: false
-tags: ['AL Lint', 'ALLint', 'CleanCode', 'VSCode']
+tags: ['Business Central', 'AL', 'VS Code', 'Code Quality', 'LinterCop']
 ---
 
 Maybe you have read this in twitter already: I took over the [AL Lint extension](https://marketplace.visualstudio.com/items?itemName=StefanMaron.allint) for VS Code from Marije Brummel. She searched quite some time already for someone and finally she found me :D

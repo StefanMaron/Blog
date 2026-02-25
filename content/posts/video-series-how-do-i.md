@@ -1,8 +1,9 @@
 ---
 title: 'Video series: How do I?'
+description: "Introducing a short-form AL video series focused on single tasks — practical how-to clips for Business Central developers using default VS Code settings."
 date: Sun, 28 Feb 2021 08:54:16 +0000
 draft: false
-tags: ['Business Central']
+tags: ['Business Central', 'AL', 'VS Code', 'Videos']
 ---
 
 I just joined the hype train and started to record AL learning videos!

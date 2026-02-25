@@ -1,8 +1,9 @@
 ---
 title: "How to use Interfaces in Business Central"
+description: "Learn how AL interfaces work in Business Central: enum+interface patterns, testability with fake implementations, and the new interface extension syntax"
 date: 2024-10-14T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL']
+tags: ['Business Central', 'AL', 'Interfaces', 'Unit Testing', 'Videos']
 ---
 
 Interfaces still cause a fair amount of confusion, even among developers who have been writing AL for a while. I wanted to do a proper walkthrough — from the basics to real-world patterns like testing with fake implementations and the enum+interface combination that I use most often in practice.

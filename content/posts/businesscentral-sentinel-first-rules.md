@@ -1,8 +1,9 @@
 ---
 title: "Building BusinessCentral.Sentinel from Scratch: The First Six Rules"
+description: "Build BusinessCentral.Sentinel live — a free AppSource app detecting DEV extensions, missing source access, SUPER users, and number series locking issues."
 date: 2024-11-23T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Open Source']
+tags: ['Business Central', 'AL', 'AppSource', 'Permissions', 'Performance', 'Videos']
 ---
 
 The idea came to me while driving home from BC Days Poland in Warsaw, listening to [Episode 348 of the Dynamics Corner podcast](https://www.dynamicscorner.com/episode-348-in-the-dynamics-corner-chair-source-code-management-and-you-in-business-central/) — "Source Code Management and You in Business Central" with Steve Endow as guest. They were talking about customer projects gone wrong — partners going out of business, customers left without access to the source code of their own extensions. I pulled over and texted Steve, then called him once I got home. We needed to talk through the idea.

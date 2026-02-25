@@ -33,8 +33,11 @@ the following:
 
 The whole thing runs in one command per video — or in a batch. To clear the back catalogue, I
 had Claude run through all 26 streams sequentially, one sub-agent per video, committing each post
-to the repo as it finished. Total wall time: 2h 34m 42s. I came back, reviewed the drafts, fixed
-a couple of things, and pushed.
+to the repo as it finished. Total wall time: 2h 34m 42s.
+
+![Claude Code session showing "Crunched for 2h 34m 42s"](/images/turning-streams-into-blog-posts/batch-runtime.png)
+
+I came back, reviewed the drafts, fixed a couple of things, and pushed.
 
 It's not perfect — the transcript-based posts lack the back-and-forth of a live stream, and
 Claude occasionally fills gaps with context I'd phrase differently. But that's what the review

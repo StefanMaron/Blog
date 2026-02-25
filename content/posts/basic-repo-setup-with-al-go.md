@@ -1,8 +1,9 @@
 ---
 title: "Basic Repo Setup with AL-Go"
+description: "Step-by-step AL-Go repository setup from template to first release: settings.json, shared rulesets, LinterCop, environment deployment, and org-level"
 date: 2024-08-15T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL-Go', 'GitHub Actions', 'DevOps', 'AL', 'LinterCop']
+tags: ['Videos', 'Business Central', 'AL-Go', 'GitHub Actions', 'LinterCop', 'DevOps']
 ---
 
 Every new Business Central project starts with the same question: how do I get from zero to a working CI/CD pipeline without wasting a day on config? This stream walks through the entire setup — from clicking "Use this template" on GitHub all the way to running a release and deploying to an environment.

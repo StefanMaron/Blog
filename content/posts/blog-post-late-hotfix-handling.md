@@ -1,8 +1,9 @@
 ---
 title: "MSDyn365BC.Sandbox.Code.History - Late Hotfix Handling"
+description: "Why the MSDyn365BC.Code.History repo rewrites git history to insert late Microsoft hotfixes in semantic version order — and how to fix divergent branch"
 date: 2025-10-02
 draft: false
-tags: ['Business Central', 'github', 'history', 'versions', 'automation']
+tags: ['Business Central', 'Git', 'DevOps', 'GitHub Actions']
 ---
 
 You might have noticed some divergent branch errors when trying to pull from the [MSDyn365BC.Sandbox.Code.History](https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History) repository lately. I am going to explain what the hell is going on, and how to solve it ;)

@@ -1,8 +1,9 @@
 ---
 title: "AppSource Monetization and Entitlements in Business Central"
+description: "Complete guide to AppSource entitlement objects in Business Central: plan types, permission sets, delegated admin access, security groups, and S2S"
 date: 2025-01-27T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'AppSource']
+tags: ['Videos', 'Business Central', 'AL', 'AppSource', 'Permissions']
 ---
 
 I recently worked on two AppSource apps that use transactability — meaning Microsoft handles billing through the marketplace. Both required entitlement objects, and there were a few things that tripped me up. The documentation exists, but it doesn't always connect the dots between Partner Center, entitlement objects, and permission sets. This stream goes through the whole flow.

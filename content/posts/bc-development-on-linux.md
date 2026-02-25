@@ -1,8 +1,9 @@
 ---
 title: "Is Linux ready for BC Development?"
+description: "An honest look at Business Central AL development on Linux: what works perfectly, where Docker and reports still need a Windows VM, and how to get started"
 date: 2025-02-08T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Linux', 'VS Code', 'GitHub Actions']
+tags: ['Videos', 'Business Central', 'AL', 'Linux', 'VS Code', 'Docker']
 ---
 
 Three years ago I installed Linux on a second partition, thinking I'd boot back into Windows within a week. I never did. In this episode of the BC Coding Stream I invited fellow MVP Tine Starič to go through all the questions a BC developer would actually ask before making that switch.

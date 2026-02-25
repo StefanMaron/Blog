@@ -1,8 +1,9 @@
 ---
 title: "Building Sentinel: Configurable Telemetry and a Better Alert View"
+description: "Adding configurable Azure Application Insights telemetry and a clean alert card page to BusinessCentral.Sentinel — open-source BC environment monitoring."
 date: 2025-02-01T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Telemetry', 'AppSource']
+tags: ['Videos', 'Business Central', 'AL', 'AppSource', 'Performance', 'APIs']
 ---
 
 In this coding session I continued work on [Sentinel](https://github.com/StefanMaron/BusinessCentral.Sentinel), the open-source BC monitoring app I'm building. The idea is to give you a way to quickly spot problems in your BC environment — performance risks, permission issues, misconfigured technical setup. Eight rules so far, more coming.

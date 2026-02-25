@@ -1,8 +1,9 @@
 ---
 title: "If You Can't Make It Fast, Make It Feel Fast"
+description: "Compare all four Business Central background processing tools — Page Background Tasks, StartSession, TaskScheduler, Job Queue — and learn when to use each"
 date: 2026-02-24T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Performance', 'Job Queue', 'Background Processing']
+tags: ['Videos', 'Business Central', 'AL', 'Performance', 'DevOps']
 ---
 
 There is a lot of guidance on writing high-performance AL code, and that guidance is right — optimization should always come first. But sometimes, no matter how good your code is, an operation just takes time. Large data volumes, complex processing, external dependencies. At some point you hit a wall.

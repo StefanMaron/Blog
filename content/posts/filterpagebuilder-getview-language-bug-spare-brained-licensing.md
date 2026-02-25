@@ -1,8 +1,9 @@
 ---
 title: "FilterPageBuilder.GetView, Language Bugs, and Adding Spare Brained Licensing"
+description: "Fix the FilterPageBuilder.GetView language bug by using field IDs, and integrate Spare Brained Licensing into an AppSource AL extension with AL-Go CI"
 date: 2024-05-26T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'AL-Go']
+tags: ['Videos', 'Business Central', 'AL', 'AL-Go', 'AppSource']
 ---
 
 Two things on the agenda for this stream: fixing a subtle language-related bug in how I use `FilterPageBuilder.GetView`, and starting to integrate [Spare Brained Licensing](https://github.com/SpareBrainedIdeas/Spare-Brained-Licensing) into my Automatic Write-Offs app. The [full stream is on YouTube](https://www.youtube.com/watch?v=DQ5EMzLi1c8) if you want the unfiltered version.

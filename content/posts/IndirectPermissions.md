@@ -1,7 +1,9 @@
 ---
 title: "Indirect Permissions in Business Central"
+description: "Why LinterCop rule LC0068 warns about missing Permissions properties in AL — a complete explanation of indirect permissions, 250 restricted tables, and"
 date: 2024-10-06T20:28:30+02:00
 draft: false
+tags: ['Business Central', 'AL', 'Permissions', 'LinterCop', 'Code Quality']
 ---
 
 # Indirect Permissions in Business Central

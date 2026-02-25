@@ -1,8 +1,9 @@
 ---
 title: 'Changes in MSDyn365BC.Code.History'
+description: "MSDyn365BC.Code.History rewrote 1800 commits via git filter-branch and added Git LFS for large translation files — here's how to resync your local clone."
 date: Fri, 07 Jan 2022 11:48:53 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Business Central', 'Git', 'DevOps']
 ---
 
 Today you may have already noticed something like this if you have a local clone of [MSDyn365BC.Code.History](https://github.com/StefanMaron/MSDyn365BC.Code.History) to use with VS Code. I am going to explain what the hell is going on, and how to solve it ;)

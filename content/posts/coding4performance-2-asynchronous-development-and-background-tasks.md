@@ -1,8 +1,9 @@
 ---
 title: 'Coding4Performance 2: Asynchronous development and background tasks'
+description: "Learn how asynchronous development and background tasks work in Business Central — from Page Background Tasks to Start Session and Task Scheduler patterns."
 date: Fri, 10 Jul 2020 07:52:14 +0000
 draft: false
-tags: ['Asynchronous', 'Business Central', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Asynchronous']
 ---
 
 In this post I will explain the general concept of asynchronous development and background tasks.

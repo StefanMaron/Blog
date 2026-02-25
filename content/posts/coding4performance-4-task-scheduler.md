@@ -1,8 +1,9 @@
 ---
 title: 'Coding4Performance 4: Task Scheduler'
+description: "How to use the Business Central Task Scheduler to queue background work across server instances, including Docker setup and scheduling tips."
 date: Wed, 15 Jul 2020 09:13:05 +0000
 draft: false
-tags: ['background', 'Business Central', 'BusinessCentral', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Asynchronous', 'Docker']
 ---
 
 In my last post about [Start Session](https://stefanmaron.wordpress.com/2020/07/11/coding4performance-3-start-session/) I explained how you can easily run a Codeunit in background and relieve the user session. The downside on this method is, that your background task still runs on the same server instance like the user session does. If you have only a few users and only one server instance you are good to go. But if not, then the [Task Scheduler](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-task-scheduler) could be of interest for you!

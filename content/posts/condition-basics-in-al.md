@@ -1,8 +1,9 @@
 ---
 title: 'Condition basics in AL'
+description: "Practical AL coding patterns for writing clean, readable conditions — from IN statements and case true of to extracting complex logic into named functions."
 date: Tue, 04 Aug 2020 12:58:24 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'BusinessCentral', 'CleanCode', 'Guidelines']
+tags: ['Business Central', 'AL', 'Code Quality']
 ---
 
 Recently I posted a "[Did you know that ...](https://twitter.com/StefanMaron/status/1289063800231153664?s=20)" post on Twitter showing an alternative way to write an if-condition. Today I thought: Hey, I might have some more examples for different ways to write conditions and here we are ;)

@@ -1,8 +1,9 @@
 ---
 title: 'BusinessCentral.LinterCop v0.23.0'
+description: "LinterCop v0.23.0 adds wiki help links, LC0014 for permission set caption length, and LC0015 for full permission set object coverage — not just tables."
 date: Wed, 05 Jan 2022 07:10:45 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Business Central', 'AL', 'LinterCop', 'Permissions', 'Code Quality']
 ---
 
 A new version of the [BusinessCentral.LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop) just got released 🥳

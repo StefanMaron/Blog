@@ -1,8 +1,9 @@
 ---
 title: "Build a better way to catch errors 2 – without the test framework"
+description: "Build a production-safe AL error-catching pattern using CommitBehavior::Ignore and inner/outer codeunits — no test framework required, works in BC Online."
 date: 2024-05-30T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Business Central', 'AL', 'Error Handling', 'Interfaces', 'Transactions', 'Videos']
 ---
 
 In [the first stream on this topic](https://youtube.com/live/qvejRA7U52Q?feature=share) I built a way to reliably catch and log errors during Business Central imports using the test framework — running code inside a test codeunit so that any database changes roll back automatically when an error is thrown. The idea worked. But then I tried to run it in production Online, and it blew up immediately: the test framework is not available in production SaaS tenants.

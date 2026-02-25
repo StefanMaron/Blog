@@ -1,8 +1,9 @@
 ---
 title: 'Bugfixes for LinterCop Rule LC0015'
+description: "LinterCop v0.24.0 fixes rule LC0015 to check all permission types — not just TableData — filling the gap left by PTE0004 for Business Central AL"
 date: Wed, 02 Feb 2022 08:00:45 +0000
 draft: false
-tags: ['AL Lint', 'ALLint', 'Business Central', 'BusinessCentral', 'CleanCode']
+tags: ['Business Central', 'AL', 'LinterCop', 'Permissions', 'Code Quality']
 ---
 
 I just released a new version for the [BusinessCentral.LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop).

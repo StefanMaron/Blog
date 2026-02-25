@@ -1,8 +1,9 @@
 ---
 title: 'MSDyn365BC.Code.History'
+description: "Introducing MSDyn365BC.Code.History: a GitHub repository tracking every on-premises Business Central version so you can diff any two CU releases"
 date: Wed, 13 Jan 2021 16:28:03 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'github', 'history', 'versions']
+tags: ['Business Central', 'Git', 'GitHub Actions', 'DevOps']
 ---
 
 Did you ever wonder what was changed in a cumulative update in Business Central? Sure, you can read the update notes from Microsoft and read the list of bug fixes they made. But I mean like, really know what was changed. Like, which line was changed on the customer table from between 2 versions?

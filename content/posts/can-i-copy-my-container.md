@@ -1,8 +1,9 @@
 ---
 title: 'Can I copy my container?'
+description: "Copy a Business Central Docker container in two commands — docker commit to snapshot it, then New-BcContainer from the saved image to restore it instantly."
 date: Tue, 23 Feb 2021 05:58:14 +0000
 draft: false
-tags: ['Allgemein', 'Docker', 'Powershell']
+tags: ['Business Central', 'Docker', 'DevOps']
 ---
 
 I just stumbled over this twitter post from Steve

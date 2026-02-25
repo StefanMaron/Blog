@@ -1,7 +1,9 @@
 ---
 title: "Running Windows 11 on a Debian Host"
+description: "How to set up a Business Central AL-Go build agent by running Windows 11 in a KVM/QEMU VM on Debian 12 — bypassing TPM requirements and cutting overhead."
 date: 2024-03-19T08:24:52+01:00
 draft: false
+tags: ['Business Central', 'AL-Go', 'Linux', 'Docker', 'DevOps']
 ---
 
 ## Navigating the Build Agent Dilemma for Business Central

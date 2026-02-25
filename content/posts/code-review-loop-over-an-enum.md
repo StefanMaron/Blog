@@ -1,8 +1,9 @@
 ---
 title: 'Code review: Loop over an Enum'
+description: "Refactor an AL enum loop into a clean foreach with Enum.Ordinals() and FromInteger() — a code review on why readable AL code is always easier to maintain."
 date: Mon, 19 Apr 2021 09:57:13 +0000
 draft: false
-tags: ['AL', 'BusinessCentral', 'Code review']
+tags: ['Business Central', 'AL', 'Code Quality']
 ---
 
 So I came across this post from ThatNavGuy: [Looping Through Enum – That NAV guy (wordpress.com)](https://thatnavguy.wordpress.com/2021/03/12/looping-through-enum/)

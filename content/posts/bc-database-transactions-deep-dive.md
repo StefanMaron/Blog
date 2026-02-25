@@ -1,8 +1,9 @@
 ---
 title: "How Do Database Transactions Actually Work in Business Central?"
+description: "Deep dive into Business Central transaction behavior — Codeunit.Run implicit commits, CommitBehavior, TryFunction pitfalls, and TransactionType isolation"
 date: 2024-09-15T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Videos', 'Business Central', 'AL', 'Database', 'Transactions']
 ---
 
 I thought I knew how transactions worked in Business Central. Then I started actually testing them, and I was genuinely shocked by a few things. This stream is me working through it live, building a small test extension and watching what commits and errors actually do to the database.

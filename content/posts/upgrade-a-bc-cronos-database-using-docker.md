@@ -1,8 +1,9 @@
 ---
 title: 'Upgrade a BC CRONUS Database using Docker'
+description: "Step-by-step PowerShell script to upgrade a Business Central CRONUS database using Docker containers — live-streamed with the script published on GitHub"
 date: Fri, 04 Jun 2021 09:00:33 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'Docker', 'Powershell', 'upgrade']
+tags: ['Business Central', 'Docker', 'DevOps', 'Videos']
 ---
 
 A few days ago I streamed how I try to upgrade a Business Central CRONOS Database just using docker:

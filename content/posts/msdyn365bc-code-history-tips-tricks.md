@@ -1,8 +1,9 @@
 ---
 title: "MsDyn365BC.Code.History Tips & Tricks"
+description: "Master MSDyn365BC.Code.History: fix broken GitHub search with github.dev, clone single branches, use GitLens to diff entire BC version ranges, and fetch"
 date: 2024-10-19T09:00:00+02:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'GitHub']
+tags: ['Business Central', 'Git', 'VS Code', 'GitHub Actions', 'Videos']
 ---
 
 If you've ever tried to search for something in the [MsDyn365BC.Code.History](https://github.com/StefanMaron/MSDyn365BC.Code.History) repository directly on GitHub, you've probably noticed it stopped working. The GitHub code search just returns no results. You can [watch the full stream on YouTube](https://www.youtube.com/live/LOflL1nztrg) if you want to follow along.

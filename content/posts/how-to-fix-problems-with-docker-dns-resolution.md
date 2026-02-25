@@ -1,8 +1,9 @@
 ---
 title: 'How to: Fix problems with Docker DNS resolution'
+description: "Two ways to fix DNS resolution failures in Business Central Docker containers — adjusting Windows network interface metrics or setting a custom DNS server"
 date: Sat, 04 Jul 2020 17:53:29 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'DNS', 'Docker', 'Powershell']
+tags: ['Business Central', 'Docker', 'DevOps']
 ---
 
 Recently I discovered that my BC instance within a Docker container somehow can not access the internet. After some time I figured that the problem was the DNS resolution and I thought I might share two possible ways to resolve this problem with you!

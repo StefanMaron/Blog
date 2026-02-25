@@ -1,8 +1,9 @@
 ---
 title: 'Business Central LinterCop with older Versions of BC'
+description: "Fix LinterCop assembly version mismatches in BC pipelines by loading the latest AL compiler from the VS Code Marketplace with the -vsixFile parameter."
 date: Tue, 11 Jan 2022 05:37:14 +0000
 draft: false
-tags: ['AL Lint', 'Allgemein', 'ALLint', 'BusinessCentral']
+tags: ['Business Central', 'AL', 'LinterCop', 'DevOps', 'GitHub Actions']
 ---
 
 If you want to run pipelines with the LinterCop, you can use Run-ALPipeline and pass in the path to the LinterCop.dll via the parameter - CustomCops. But when running pipelines for various versions of BusinessCentral you might encounter errors like this:

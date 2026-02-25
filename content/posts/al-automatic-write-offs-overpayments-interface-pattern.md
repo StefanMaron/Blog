@@ -1,8 +1,9 @@
 ---
 title: "Building an Automatic Write-Off Tool in AL: Adding Overpayments with an Interface Pattern"
+description: "Learn how to use AL interfaces and extensible enums to add overpayment write-off support to a Business Central AppSource app, with number series debugging"
 date: 2024-05-25T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'GitHub Actions']
+tags: ['Videos', 'Business Central', 'AL', 'Interfaces', 'AppSource']
 ---
 
 This stream picked up mid-session on an app I'm building for AppSource: an automatic write-off tool that generates general journal lines for small remaining amounts on customer ledger entries. The previous stream had a frozen screen issue — VS Code appeared fine in my preview but wasn't actually updating — so I restarted and recapped quickly before jumping back in. The [full stream is on YouTube](https://www.youtube.com/watch?v=C8QDgzXuuUg) if you want to follow along.

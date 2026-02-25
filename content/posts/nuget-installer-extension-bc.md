@@ -1,8 +1,9 @@
 ---
 title: "Creating a NuGet Installer Extension for Business Central"
+description: "Building a Business Central extension that queries the NuGet v3 API, downloads app packages from AppSource or private feeds, and installs them using"
 date: 2024-10-04T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'NuGet', 'AL-Go']
+tags: ['Business Central', 'AL', 'NuGet', 'AL-Go', 'APIs', 'Videos']
 ---
 
 AL-Go has been gaining NuGet support for a while — you can now publish BC apps to a NuGet feed as part of your pipeline. In [this stream](https://www.youtube.com/watch?v=vch1T545msc) I took that one step further and asked: can we pull apps back *from* a NuGet feed and install them directly into a BC environment, from inside BC itself?

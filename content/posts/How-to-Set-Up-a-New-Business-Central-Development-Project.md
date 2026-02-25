@@ -1,7 +1,9 @@
 ---
 title: "How to Set Up a New Business Central Development Project – The 100% Correct Way"
+description: "The definitive guide to starting a Business Central AL project right — AL-Go templates, app.json settings, naming conventions, LinterCop, and CI pipeline"
 date: 2025-06-05T07:32:18+02:00
 draft: false
+tags: ['Business Central', 'AL', 'AL-Go', 'LinterCop', 'DevOps', 'AppSource']
 ---
 
 # How to Set Up a New Development Project/App — The 100% Correct Way

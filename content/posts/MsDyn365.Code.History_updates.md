@@ -1,7 +1,9 @@
 ---
 title: "MsDyn365Bc.Code.History Updates"
+description: "How MSDyn365BC.Code.History was migrated to GitHub Actions with parallel country matrix builds, why XLF translation files were dropped, and how to manage"
 date: 2024-10-17T06:07:34+02:00
 draft: false
+tags: ['Business Central', 'Git', 'GitHub Actions', 'DevOps']
 ---
 
 You might have noticed already that I made some changes to the https://github.com/StefanMaron/MSDyn365BC.Code.History repository.

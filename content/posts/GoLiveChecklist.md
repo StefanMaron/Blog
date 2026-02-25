@@ -1,7 +1,9 @@
 ---
 title: "Go Live Checklist"
+description: "A look at the open-source GoLiveChecklisting app for Business Central — an extensible framework to script and validate data quality checks before going"
 date: 2023-07-01T00:33:39+02:00
 draft: false
+tags: ['Business Central', 'AL', 'Testing', 'AppSource']
 ---
 
 I am not sure if you where on BCTechDays 2023, or if you maybe already saw Jeremy's session on YouTube already.

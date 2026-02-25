@@ -1,5 +1,6 @@
 ---
 title: "AL Development with Claude Code: A Multi-Agent Workflow"
+description: "How a document-driven multi-agent Claude Code workflow handles large AL refactoring tasks — 42 files, 0 errors, 1 hour of nearly unattended work."
 date: 2026-01-28T09:00:00+01:00
 draft: false
 tags: ['Videos', 'Business Central', 'AL', 'Claude Code', 'AI', 'DevOps']

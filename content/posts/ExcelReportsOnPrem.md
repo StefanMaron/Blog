@@ -1,7 +1,9 @@
 ---
 title: "Excel Reports OnPrem/Docker"
+description: "How to connect refreshable Excel reports to Business Central OData APIs when running Docker or on-premises containers, including tenant URL and credential"
 date: 2024-09-06T06:43:14+02:00
 draft: false
+tags: ['Business Central', 'Docker', 'APIs', 'AL']
 ---
 
 This blog is about how to get your Excel report layout connected to have a refreshable Excel report.

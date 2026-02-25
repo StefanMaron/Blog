@@ -1,8 +1,9 @@
 ---
 title: "Documenting BusinessCentral.Sentinel — AI-Generated Docs, Better Alert Descriptions, and Company Deletion Fun"
+description: "Auto-generate BC Sentinel rule docs via Claude API for under $0.11, improve alert descriptions, add a usage panel, and wire up Show Related Information."
 date: 2024-12-09T09:00:00+01:00
 draft: false
-tags: ['Videos', 'BusinessCentral.Sentinel', 'Business Central', 'AL Development', 'AppSource']
+tags: ['Business Central', 'AL', 'AppSource', 'AI', 'Videos']
 ---
 
 This is episode two of the [BusinessCentral.Sentinel](https://github.com/StefanMaron/BusinessCentral.Sentinel) coding stream. If you missed the first one, Sentinel is a free AppSource app that runs a set of checks against your Business Central environment and flags potential issues — extensions in DEV scope, missing source code access, evaluation companies in production, that kind of thing.

@@ -1,7 +1,9 @@
 ---
 title: "My approach to custom APIs"
+description: "When to use API Queries vs API Pages vs OData Bound Actions in Business Central — a practical approach to building readable, testable, and performant"
 date: 2023-07-04T08:05:27+02:00
 draft: false
+tags: ['Business Central', 'AL', 'APIs', 'Performance', 'Testing']
 ---
 
 Since I work together with our colleagues from the PowerPlatform team more frequently, one of my most regular tasks is, to create a new custom API.

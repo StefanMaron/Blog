@@ -1,8 +1,9 @@
 ---
 title: "Building a Plug & Play Claude Code Dev Container for AL Development"
+description: "Build a Claude Code dev container for AL with persistent OAuth via named Docker volumes, git credential isolation, and a shareable Dev Container Feature."
 date: 2026-02-20T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'Claude Code', 'DevOps', 'Docker']
+tags: ['Business Central', 'AL', 'Claude Code', 'Docker', 'AI', 'Videos']
 ---
 
 A few weeks ago I shared my [Claude Code configuration for AL development](https://github.com/StefanMaron/claude-configs) — the CLAUDE.md instructions, the agent profile, custom commands. It's all public and you're welcome to use or adapt it. But getting it into a new project still involves some manual steps, and there's one thing that always annoyed me: I was running Claude Code *outside* my dev containers. Not because I wanted to, but because I didn't want to authenticate inside every new container.

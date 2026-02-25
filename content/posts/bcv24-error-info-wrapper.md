@@ -1,8 +1,9 @@
 ---
 title: "BCv24 Error Info Wrapper - Backporting the Fluent ErrorInfo API"
+description: "How to backport a fluent AL ErrorInfo wrapper to Business Central v24 by working around the missing 'this' keyword with a global variable and internal"
 date: 2024-07-10T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'GitHub']
+tags: ['Videos', 'Business Central', 'AL', 'Error Handling']
 ---
 
 On a recent stream I built a fluent wrapper around the `ErrorInfo` data type that lets you chain calls like `ErrorInfoWrapper.Title('...').Message('...').AddAction(...)`. The original implementation used the `this` keyword, which is only available from AL runtime 14.0 (Business Central v25) onwards. Someone in the chat — I think it was Natalie — pointed out that it would only work on v25+. I was pretty sure we could make it work on v24 too, so that's what this stream was about.

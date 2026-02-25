@@ -1,8 +1,9 @@
 ---
 title: "Build a better way to catch errors (Part 1) - The BC Coding Stream"
+description: "Catch AL validation errors including hidden Validate commits without side-effects — using the BC test framework as a reliable transaction rollback sandbox."
 date: 2024-05-28T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Business Central', 'AL', 'Error Handling', 'Testing', 'Interfaces', 'Videos']
 ---
 
 This stream started as a debugging session. I'd hit a problem in a real project: I needed to catch errors from field validations — including all the hidden commits that `Validate` can trigger — without leaving any trace in the database. I wanted to show the user what would go wrong before actually doing the thing. Turns out that's harder than it sounds.

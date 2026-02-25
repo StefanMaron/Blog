@@ -1,8 +1,9 @@
 ---
 title: "Reviewing Microsoft's AI Test Toolkit PR in BCApps — Guideline Fixes Live"
+description: "Live code review of Microsoft's AI Test Toolkit PR in BCApps: fixing LinterCop violations, refactoring N+1 queries with FlowFields, and contributing back"
 date: 2024-07-03T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'GitHub', 'LinterCop']
+tags: ['Videos', 'Business Central', 'AL', 'LinterCop', 'Code Quality', 'Testing']
 ---
 
 The [full stream is on YouTube](https://www.youtube.com/watch?v=gVD3Aif-pVk) if you want to watch along. The short version: Microsoft opened a pull request to add an **AI Test Toolkit** to the public [BCApps repository](https://github.com/microsoft/BCApps), and I spent a stream going through it file by file, fixing AL guideline violations and trying to get a counter-PR merged.

@@ -1,8 +1,9 @@
 ---
 title: 'BusinessCentral.LinterCop'
+description: "Introducing LinterCop — an AL code analyzer for Business Central built by reverse-engineering the compiler /analyzer: interface. Contribute on GitHub."
 date: Thu, 02 Sep 2021 08:13:42 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Business Central', 'AL', 'LinterCop', 'Code Quality']
 ---
 
 As you maybe remember, I am working on a linter solution for AL for some time already. I tried a VS Code extension. I tried to build a dll to increase performance and to make it available in powershell and therefore also in pipelines. But for now I did not find a proper solution.

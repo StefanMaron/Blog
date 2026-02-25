@@ -1,8 +1,9 @@
 ---
 title: "Write-Off App: AppSource Finishing Touches"
+description: "Pre-publication AppSource checklist for a BC AL extension: Access properties, InherentPermissions, enum implementations, permission sets, and clean folder"
 date: 2024-06-04T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'LinterCop']
+tags: ['Videos', 'Business Central', 'AL', 'AppSource', 'LinterCop', 'Permissions']
 ---
 
 This stream was about getting the Automatic Write-Off app ready for AppSource — the last round of cleanup before the first publish. No new features, just the unglamorous work that actually matters: `Access` properties on every object, `InherentPermissions`, permission sets, enum implementations, and reorganizing the folder structure. If you've been building your first AppSource extension, this session is probably where I'd point you.

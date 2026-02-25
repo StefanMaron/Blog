@@ -1,7 +1,9 @@
 ---
 title: "View changes of base permission sets"
+description: "How to track Microsoft's Business Central permission set changes between updates using the MSDyn365BC.Code.History GitHub repository — step-by-step guide."
 date: 2023-08-18T13:57:36+02:00
 draft: false
+tags: ['Business Central', 'Permissions', 'Git']
 ---
 
 # How to check if one of the permissions sets from Microsoft change with an update

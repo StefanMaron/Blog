@@ -1,8 +1,9 @@
 ---
 title: "MSDyn365BC.Ntfy Development Session — Redesigning the BC Push Notification App"
+description: "Redesigning MSDyn365BC.Ntfy's data model to support multiple event subscriptions per topic, add an Enabled flag, and dispatch push notifications via the"
 date: 2024-07-16T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Business Central', 'AL', 'APIs', 'Interfaces', 'Videos']
 ---
 
 Push notifications from Business Central to your phone — that's the idea behind [MSDyn365BC.Ntfy](https://github.com/StefanMaron/MSDyn365BC.Ntfy). In this stream session I worked on rethinking the data model for the app, which started as a proof of concept and needed some structural improvements before it was worth building on further.

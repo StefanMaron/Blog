@@ -1,8 +1,9 @@
 ---
 title: 'Thoughts about automated testing in projects'
+description: "Why automated testing matters in Business Central projects — the case for treating tests as quality insurance, not an optional extra that customers won't"
 date: Mon, 01 Feb 2021 09:34:04 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Business Central', 'AL', 'Unit Testing', 'Code Quality']
 ---
 
 I just finished a somewhat successful project with one of my customers, starting with BC from scratch only with some master data imported. For some more critical processes I wrote some basic test cases and automated them. Although this project did not fail and the customer can work with BC without problems now, I had a feeling of just being lucky.

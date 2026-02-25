@@ -1,8 +1,9 @@
 ---
 title: 'Automated export objects from C/AL'
+description: "Use a SQL trigger on the NAV Object table to auto-export C/AL objects as TXT files into a Git repository inside a Docker container, giving you version"
 date: Mon, 07 Sep 2020 05:44:17 +0000
 draft: false
-tags: ['Allgemein', 'Docker', 'SQL']
+tags: ['Business Central', 'Docker', 'Git', 'Database']
 ---
 
 This time I have some tips on how to use GIT integration when developing in C/AL with docker. When used to AL development one of the first things to notice when going back to C/AL is, that you do not have any version control.

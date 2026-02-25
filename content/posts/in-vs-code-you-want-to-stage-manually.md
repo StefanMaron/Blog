@@ -1,8 +1,9 @@
 ---
 title: 'In VS Code you want to git stage manually...'
+description: "Why you should disable auto-staging in VS Code: manual git staging lets VS Code detect file renames automatically, preserving your commit history."
 date: Mon, 09 Nov 2020 15:34:55 +0000
 draft: false
-tags: ['Allgemein', 'development', 'git']
+tags: ['Git', 'VS Code', 'DevOps']
 ---
 
 After a longer break with blogging, I am now back with a really short one. But I thought this would be worth sharing ;)

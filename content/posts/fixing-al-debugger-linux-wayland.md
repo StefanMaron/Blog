@@ -1,8 +1,9 @@
 ---
 title: 'Fixing AL Language Extension Debugger on Linux with Wayland/Hyprland'
+description: "How to fix the empty Call Stack and Variables panel bug in the AL debugger on Linux Wayland/Hyprland by running the language server inside a VS Code Dev"
 date: 2025-10-31
 draft: false
-tags: ['Business Central', 'AL', 'Linux', 'Docker', 'VS Code', 'Debugging']
+tags: ['Business Central', 'AL', 'Linux', 'Docker', 'VS Code']
 ---
 
 Last week I switched my development machine from i3 to Hyprland and immediately ran into a frustrating problem: the AL Language Extension debugger stopped working. Well, not completely - it would connect to Business Central and pause on breakpoints, but the **Call Stack and Variables panels stayed completely empty**. No way to inspect any program state at all.

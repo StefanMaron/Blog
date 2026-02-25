@@ -1,8 +1,9 @@
 ---
 title: 'BC TechDays 2023'
+description: "Stefan Maron's BC TechDays 2023 recap: first-ever conference session, community highlights, and resource links for LinterCop, MSDyn365BC.Code.History, and"
 date: Fri, 23 Jun 2023 14:53:23 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Business Central', 'LinterCop', 'Linux']
 ---
 
 And yet another conference has come to an end. And again its this weird feeling I can not really describe. All I know is, I am already looking forward to meeting all of the community again in France for EMEA later this year!

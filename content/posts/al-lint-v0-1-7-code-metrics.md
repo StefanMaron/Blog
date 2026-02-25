@@ -1,8 +1,9 @@
 ---
 title: 'AL Lint v0.1.7: Code Metrics'
+description: "AL Lint v0.1.7 adds cyclomatic complexity and maintainability index metrics to the VS Code status bar, helping you keep Business Central AL code clean and"
 date: Tue, 11 Aug 2020 06:09:23 +0000
 draft: false
-tags: ['AL Lint', 'ALLint', 'CleanCode']
+tags: ['Business Central', 'AL', 'LinterCop', 'Code Quality', 'VS Code']
 ---
 
 This morning I updated the code metrics calculation in AL Lint. Code metrics are meant to give you some comparable numbers on how complex your code is.

@@ -1,8 +1,9 @@
 ---
 title: 'Performance &amp; Variables exposed as field on a Page'
+description: "Avoid unnecessary computation on hidden page fields in Business Central: use inline expressions instead of DataSet variables so code only runs when the"
 date: Tue, 02 Mar 2021 19:01:27 +0000
 draft: false
-tags: ['Business Central', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Code Quality']
 ---
 
 Today was again one of those days...

@@ -1,8 +1,9 @@
 ---
 title: 'Speed up BC container creation'
+description: "Save nearly 3 minutes per BC container build by pre-baking test libraries into your Docker image with New-BcImage and -includeTestToolkit — one simple"
 date: Tue, 16 Mar 2021 19:46:00 +0000
 draft: false
-tags: ['Business Central', 'Docker', 'Performance']
+tags: ['Business Central', 'Docker', 'Performance', 'DevOps']
 ---
 
 This is probably going to be a short blog again and chances are high that you already know what I am going to share. But if your are like me and did not know this little trick, its going to save you, and maybe your team, quite some time!

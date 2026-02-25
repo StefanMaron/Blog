@@ -1,8 +1,9 @@
 ---
 title: "Indirect Permissions in Business Central — What They Are and Why They Matter"
+description: "Live stream deep-dive into Business Central indirect permissions — what causes runtime permission errors, how to fix them with the Permissions property"
 date: 2024-08-06T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Videos', 'Business Central', 'AL', 'Permissions', 'Testing']
 ---
 
 Permissions in Business Central are one of those topics that seem simple on the surface until you hit a runtime error that has nothing to do with the permission sets you actually assigned. I ran into exactly that problem — and I decided to stream through it properly, live, including the things I got wrong along the way.

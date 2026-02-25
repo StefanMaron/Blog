@@ -1,8 +1,9 @@
 ---
 title: "Writing testable AL code: building a write-off app for AppSource"
+description: "Practical AL unit testing techniques: temporary records, BindSubscription, interface mocks, and actionable ErrorInfo — applied to a real AppSource"
 date: 2024-05-24T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'DevOps']
+tags: ['Videos', 'Business Central', 'AL', 'Unit Testing', 'AppSource']
 ---
 
 I've been working on a small AppSource app that lets you write off under- or overpayments from customer ledger entries into GL accounts. It generates general journal lines automatically based on filters — customer range, write-off limit, cut-off date. Simple premise, but with enough moving parts that I wanted proper test coverage before shipping it.

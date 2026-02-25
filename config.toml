@@ -1,4 +1,4 @@
-title = "Stefan Maron blog"
+title = "Stefan Maron | Business Central & AL Development"
 baseURL = 'https://stefanmaron.com'
 
 # This is what goes in <html lang="">
@@ -66,12 +66,12 @@ disqusShortname = ''
     weight = 40
 
 [params]
-  sitename = "Awesome hugo blog"
+  sitename = "Stefan Maron"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "Technical blog about Business central stuff"
+  description = "AL development and Business Central tips by Stefan Maron — deep dives on AppSource, testing, tooling, LinterCop, and the BC ecosystem."
   mainSections = ['posts']
   toc = false # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button

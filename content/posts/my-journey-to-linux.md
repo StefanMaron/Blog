@@ -1,8 +1,9 @@
 ---
 title: 'My journey to Linux'
+description: "How Stefan switched to Linux for daily AL development: running BC Docker containers in a stripped-down Windows VM and patching the AL language extension"
 date: Thu, 08 Jun 2023 19:46:33 +0000
 draft: false
-tags: ['Allgemein']
+tags: ['Linux', 'Docker', 'VS Code', 'Business Central']
 ---
 
 I do not exactly recall when that thought started to grow in the back of my mind, but I think I always were fascinated by linux. And I already created linux live USB sticks a couple of times. It not that difficult anymore as I recall it was someday. Maybe it never was and I just became more savvy with tech, who knows. But I never felt like this could be the operating system I would use for my daily work.

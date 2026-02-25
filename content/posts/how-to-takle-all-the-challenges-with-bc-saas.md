@@ -1,8 +1,9 @@
 ---
 title: 'How to takle all the challenges with BC SaaS?'
+description: "Reflections on how Business Central SaaS forced the NAV/BC community to grow from hobby development into professional software practices — and why that"
 date: Thu, 30 Dec 2021 09:23:34 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'CleanCode']
+tags: ['Business Central', 'DevOps', 'AppSource']
 ---
 
 It's been a while since my last blog post and this time its not about a technical topic. I have just watched the (right now) latest video from [@SteveEndow](https://twitter.com/steveendow) and he asks a lot of questions and leaves open the answers. I just feel like I could share a few of my thoughts about some of those topics, related to Business Central. So if you did not watch the video already, you should watch it before continuing reading.

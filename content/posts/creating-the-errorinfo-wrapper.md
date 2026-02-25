@@ -1,8 +1,9 @@
 ---
 title: "Creating the ErrorInfo Wrapper"
+description: "Live-stream walkthrough of building a fluent ErrorInfo wrapper codeunit in AL using the 'this' keyword, fix-it actions, and the facade pattern for clean"
 date: 2024-07-05T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL']
+tags: ['Videos', 'Business Central', 'AL', 'Error Handling', 'Code Quality']
 ---
 
 In this stream I built something I've been meaning to do for a while: a wrapper codeunit around the `ErrorInfo` type in AL. If you've ever tried to use `ErrorInfo` properly — with custom dimensions, navigation actions, fix-it actions — you know how much boilerplate it takes. I wanted to fix that.

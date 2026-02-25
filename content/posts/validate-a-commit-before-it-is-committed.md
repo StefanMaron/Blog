@@ -1,8 +1,9 @@
 ---
 title: 'Validate a commit before it is committed'
+description: "Use a Git pre-commit hook with a PowerShell script to block commits with invalid app.json version numbers in Business Central AL projects — shareable"
 date: Thu, 10 Jun 2021 14:20:29 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'BusinessCentral', 'git', 'Powershell']
+tags: ['Business Central', 'AL', 'Git', 'DevOps', 'AL-Go']
 ---
 
 Recently there was this question about how to do version numbering when working with AL Apps and automatic builds:

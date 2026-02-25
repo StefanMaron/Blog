@@ -1,8 +1,9 @@
 ---
 title: "LinterCop Development: Fixing LC0068 False Positives and the Sandbox Code History Repo"
+description: "Live walkthrough fixing three LC0068 false positives in LinterCop — Integer virtual tables, XMLPort AutoReplace flags, and InherentPermissions"
 date: 2024-09-03T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL', 'LinterCop', 'DevOps', 'GitHub Actions']
+tags: ['Business Central', 'AL', 'LinterCop', 'Permissions', 'GitHub Actions', 'Videos']
 ---
 
 This stream happened to land on a good day — I'd just been accepted as a Microsoft MVP, so I opened with that before diving straight into bug fixes for [LinterCop](https://github.com/StefanMaron/BusinessCentral.LinterCop). The focus was on LC0068, the rule that warns when an object is missing the `Permissions` property for table data it touches, and there were a handful of community-reported false positives sitting in the issue tracker that needed attention.

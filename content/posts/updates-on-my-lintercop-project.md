@@ -1,8 +1,9 @@
 ---
 title: 'Updates on my LinterCop project'
+description: "LinterCop update: GitHub Actions CI pipelines, expanded Rule0005 casing checks, new LC0013 NotBlank rule for primary keys, and plans for pre-release beta"
 date: Wed, 17 Nov 2021 06:20:47 +0000
 draft: false
-tags: ['Allgemein', 'ALLint', 'BusinessCentral']
+tags: ['Business Central', 'AL', 'LinterCop', 'Code Quality', 'GitHub Actions']
 ---
 
 In the last days, I managed to get some new updates for you released. Since this would be too much for a tweet, I will summarize here what changed, what will change in the next days (hopefully 🙃 ), and what is planned for future updates.

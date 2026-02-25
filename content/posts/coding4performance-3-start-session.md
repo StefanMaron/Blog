@@ -1,8 +1,9 @@
 ---
 title: 'Coding4Performance 3: Start Session'
+description: "Step-by-step guide to using StartSession in Business Central AL to run codeunits in the background and improve user session performance."
 date: Sat, 11 Jul 2020 07:48:15 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Asynchronous']
 ---
 
 As promised, here the first (and easiest) way to run code in background. This blog will be a bit shorter, as [Start session](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/methods-auto/session/session-startsession-method) is quite straight forward. Note: If you did not read the previous blog about [Background tasks in general](https://stefanmaron.wordpress.com/2020/07/10/coding4performance-2-asynchronous-development-and-background-tasks/), maybe you should start there ;)

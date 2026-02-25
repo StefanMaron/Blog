@@ -1,8 +1,9 @@
 ---
 title: 'MSDyn365BC.Code.History got a few updates!'
+description: "MSDyn365BC.Code.History now includes translation XLF files, a workspace for all test folders, and a fix for the MX localization folder naming bug."
 date: Wed, 23 Jun 2021 06:00:06 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'BusinessCentral']
+tags: ['Business Central', 'Git', 'GitHub Actions']
 ---
 
 Over the last few month a collected a few requests to improve or change the MSDyn365BC.Code.History repository. Last weekend I finally managed to address them and since Sunday I rebuild the whole Repository. Today its finally going live:

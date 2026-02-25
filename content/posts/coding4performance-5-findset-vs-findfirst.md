@@ -1,8 +1,9 @@
 ---
 title: 'Coding4Performance 5: FindSet vs FindFirst'
+description: "Benchmark results and SQL query analysis comparing FindSet vs FindFirst in Business Central AL — the differences are not what most developers expect."
 date: Thu, 23 Jul 2020 06:26:19 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Database']
 ---
 
 Today in coding for performance, we talk a bit about FindSet and FindFirst. I actually had plans to make this one the first post in this series. But it turned out that the differences between this two commands are not as obvious as I first thought.

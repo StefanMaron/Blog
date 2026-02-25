@@ -1,8 +1,9 @@
 ---
 title: 'Business Central and Multiline Fields'
+description: "Display long text fields across multiple lines in Business Central using the built-in WebPageViewer control add-in — no custom control add-in required."
 date: Thu, 20 Aug 2020 05:07:52 +0000
 draft: false
-tags: ['Allgemein', 'Business Central', 'BusinessCentral', 'Tips&amp;Tricks']
+tags: ['Business Central', 'AL', 'VS Code', 'Code Quality']
 ---
 
 This topic is probably as old as the RTC client. If you want to display a text field on a Page you will try for around two hours and then you will give up and maybe build a control addin to solve this.

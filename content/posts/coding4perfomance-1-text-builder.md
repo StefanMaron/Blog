@@ -1,8 +1,9 @@
 ---
 title: 'Coding4Performance 1: Text Builder'
+description: "AL TextBuilder vs string concatenation benchmarks — why += causes exponential slowdowns and how TextBuilder handles 10 million appends in just 6 seconds."
 date: Mon, 06 Jul 2020 08:04:47 +0000
 draft: false
-tags: ['Business Central', 'BusinessCentral', 'Performance']
+tags: ['Business Central', 'AL', 'Performance', 'Code Quality']
 ---
 
 As NAV and Business Central evolves user tasks become more complex and BC becomes more powerful to solve this tasks. But this happens often with cost in performance. Even Microsoft published a (very good) [article](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/performance/performance-overview) about how to improve performance in BC.

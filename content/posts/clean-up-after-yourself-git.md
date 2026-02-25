@@ -1,8 +1,9 @@
 ---
 title: 'Clean up after yourself, Git!'
+description: "Delete stale local git branches whose remotes are gone — a PowerShell function using git remote prune and branch -D, saved in your profile for reuse."
 date: Wed, 10 Mar 2021 07:00:30 +0000
 draft: false
-tags: ['git', 'Powershell']
+tags: ['Git', 'DevOps', 'VS Code']
 ---
 
 You may know this problem: After a while working with feature branches your local git repository is a mess of many branches which don't event exist anymore on your remote. (GitHub/GitLab/DevOps)
