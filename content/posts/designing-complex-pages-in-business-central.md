@@ -1,8 +1,9 @@
 ---
 title: "Designing Complex Pages in Business Central"
+description: "Practical patterns for complex BC page layouts — clickable text fields as buttons, grid layout, and how to think about responsive design when you're coming from WinForms"
 date: 2021-11-09T09:00:00+01:00
 draft: false
-tags: ['Videos', 'Business Central', 'AL']
+tags: ['Videos', 'Business Central', 'AL', 'Pages', 'UI']
 ---
 
 Back in October 2020 I replied to a tweet from Steve Endow about how quickly you can add custom fields to a BC page — "This only took 5 minutes of actual coding in AL. Five. Minutes." — and I added something along the lines of: yes, but if you want a more *complex* page design, it can cost you hours to find a way in BC.
