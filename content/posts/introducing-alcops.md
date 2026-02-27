@@ -16,7 +16,7 @@ The honest answer is that LinterCop had accumulated enough structural issues tha
 
 **GitHub rate limits.** When GitHub tightened their rate limits for unauthenticated requests in May 2025, pipelines that were downloading the LinterCop DLL directly from a release started failing. Sixty requests per hour per public IP sounds like a lot until you're running parallel pipelines. This pushed the issue of "we should use NuGet" from "nice to have" to "actually necessary."
 
-**The Swiss army knife problem.** LinterCop grew into a mix of AL language rules, Business Central implementation rules, formatting rules, test rules — all in one place. If you introduced a new formatting rule, every team that had said "I don't care about formatting" now had to update their ruleset to suppress it. Microsoft's own approach — separate IdentityExtensionCop, CodeCop, UICop — is domain-specific for a reason.
+**The Swiss army knife problem.** LinterCop grew into a mix of AL language rules, Business Central implementation rules, formatting rules, test rules — all in one place. If you introduced a new formatting rule, every team that had said "I don't care about formatting" now had to update their ruleset to suppress it. Microsoft's own approach — separate CodeCop, UICop, PerTenantExtensionCop, AppSourceCop — is domain-specific for a reason.
 
 **Rule severity was frozen.** There was an informal agreement that new LinterCop rules would always ship as `Info` because promoting something to `Warning` might break somebody's pipeline. That was too conservative and it made the tool less useful.
 
