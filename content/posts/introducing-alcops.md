@@ -45,6 +45,8 @@ Arthur did a rule-by-rule review during the migration rather than just copying e
 
 **Code fixes.** LinterCop shipped with five or six code fixes. ALCops now has 30. That means 30 rules where you can hit "apply fix" and it's done — no manual edit, no sending it through an LLM. Where a fix wasn't possible because the transformation is ambiguous, Arthur improved the rule descriptions so that coding agents understand what needs to change.
 
+**Correctness fixes.** Some rules had subtle bugs — for example, rules checking whether a label had a `Locked` property would pass even if it was set to `false`. ALCops actually validates the value. If you migrate and see warnings on code you thought was clean, that is often why.
+
 **AI-friendly descriptions.** He mentioned using agentic tools extensively during the migration and that it shaped how the rule descriptions were written — more specific about what the diagnostic means and what the correct fix looks like.
 
 ## NuGet Distribution
@@ -99,7 +101,7 @@ It's early — v0.1 alpha — but the idea is solid. A GitHub discussion on the 
 
 One rule worth calling out specifically: the TransferFields coupling check. In LinterCop it had about 200 hardcoded table pairs. Arthur built a pipeline (the [TransferFieldsCollector](https://github.com/ALCops/TransferFieldsCollector) repo) that spins up Business Central artifacts for every version and every localization, runs a custom analyzer to extract all `TransferFields` method invocations, and generates a static lookup of coupled table pairs.
 
-The result: ~400 bidirectional couplings and ~500 unidirectional ones. The rule was also split into two: one for field name mismatches (warning) and one for type mismatches (error, because that will throw a runtime exception). The old rule checked for the presence of a `Locked` property without checking its value — ALCops actually checks that it's set to `true`.
+The result: ~400 bidirectional couplings and ~500 unidirectional ones. The rule was also split into two: one for field name mismatches (warning) and one for type mismatches (error, because that will throw a runtime exception).
 
 If you migrate from LinterCop and see new warnings on code you thought was clean, this is likely the reason. The rule is now both more complete and more correct.
 
