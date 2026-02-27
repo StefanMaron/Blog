@@ -94,6 +94,8 @@ The script uses `tempfile.mkdtemp()` for temporary files to avoid collisions whe
 - Post-check: verifies the output directory actually contains `.zip` files
 - Returns the path on success, `$null` on any failure
 
+The entire range download stack is deliberately minimal: Python 3 with only standard library modules (`struct`, `zlib`, `subprocess`, `tempfile`), PowerShell 7 for orchestration, and `curl` for the HTTP requests. No additional dependencies to install on the GitHub Actions runner.
+
 ### The modified workflows
 
 The main change to `Auto_load_versions.ps1` and `Auto_load_versions_vNext.ps1` is straightforward: try the range download first, fall back to the full download if it fails. For `w1`, the script constructs the platform URL by replacing the last path segment (`/w1` → `/platform`) and targets the `Applications/` prefix. For other countries, it uses the artifact URL directly and targets `Applications.{COUNTRY}/`.
@@ -154,9 +156,7 @@ The wall-clock time only tells half the story though. Since all ~50 countries ru
 
 ![New workflow usage total: 19h 15m 37s across all country jobs](/images/optimizing-bc-code-history-range-requests/07-usage-new-19h.png)
 
-That's a ~86% reduction in total compute time — from nearly 6 days of cumulative runner minutes down to under 20 hours.
-
-The tech stack for the range download is deliberately minimal: Python 3 with only standard library modules (`struct`, `zlib`, `subprocess`, `tempfile`), PowerShell 7 for orchestration, and `curl` for the HTTP requests. No additional dependencies to install on the GitHub Actions runner.
+That's a ~86% reduction in compute time for a single workflow run — from nearly 6 days of cumulative runner minutes down to under 20 hours. With both the GA and vNext workflows running daily, the combined savings go from nearly 12 days to about 38 hours.
 
 ## Why this matters
 
