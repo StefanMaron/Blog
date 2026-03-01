@@ -59,6 +59,10 @@ disqusShortname = ''
     url = '/tags/'
     weight = 27
   [[menu.main]]
+    name = 'Consulting'
+    url = 'https://stefanmaronconsulting.pages.dev'
+    weight = 35
+  [[menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
