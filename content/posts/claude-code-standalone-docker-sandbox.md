@@ -1,7 +1,7 @@
 ---
 title: "Claude Code in a Standalone Docker Container: Building a Real Sandbox (Part 2)"
 description: "After the VS Code IPC escape problem killed Part 1's security model, Part 2 builds a standalone Docker image that drops VS Code entirely — with a working iptables firewall, auth persistence, per-language CLAUDE.md injection, and a live security test."
-date: 2025-01-31T09:00:00+01:00
+date: 2026-03-04T17:00:00+01:00
 draft: false
 tags: ['Videos', 'Claude Code', 'Docker', 'Dev Containers', 'Linux', 'DevOps', 'Security']
 ---
