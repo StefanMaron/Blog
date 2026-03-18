@@ -14,7 +14,7 @@ Part 2 fixes that. You can [watch the full stream on YouTube](https://youtube.co
 
 ## The VS Code IPC Problem
 
-The root cause is architectural. VS Code Dev Containers inject IPC socket paths into the container environment. Claude Code (or any process) can read those environment variables and use them to communicate with VS Code on the host. I tried race condition fixes, environment variable wiping, and socket cleanup — and it still worked around them.
+The root cause is architectural. VS Code Dev Containers inject IPC socket paths into the container environment. Claude Code (or any process) can read those environment variables and use them to communicate with VS Code on the host. I tried race condition fixes, environment variable wiping, and socket cleanup — and it still worked around them. [Janrik Ö](https://www.linkedin.com/in/janrik-%C3%B6-a0b70336a/) confirmed this on LinkedIn after Part 1: even with all my mitigations applied, Claude Code could still reconstruct the IPC bridge from inside the container.
 
 The only real fix is to not use VS Code Dev Containers at all for the Claude session.
 
