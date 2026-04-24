@@ -18,7 +18,7 @@ A few weeks later, [BusinessCentral.AL.Runner](https://github.com/StefanMaron/Bu
 
 ## What it does
 
-AL Runner is a CLI tool that runs your AL unit tests without a BC service tier, Docker container, SQL Server, or license. It works like this:
+AL Runner is a CLI tool that runs your AL unit tests without a BC service tier, Docker container, or SQL Server. It works like this:
 
 ```
 AL Source (.al files on disk)
