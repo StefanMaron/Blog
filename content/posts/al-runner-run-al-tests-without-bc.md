@@ -1,7 +1,7 @@
 ---
 title: "AL Runner: Run AL Unit Tests Without a BC Service Tier"
 description: "A standalone CLI tool that transpiles your AL source to C#, rewrites BC runtime types to in-memory mocks, and executes your test codeunits in seconds — no container, no SQL Server, no license required."
-date: 2026-04-24T09:00:00+02:00
+date: 2026-04-24T07:00:00+02:00
 draft: false
 tags: ['Business Central', 'AL', 'Unit Testing', 'AI', 'Pipelines', 'Open Source']
 ---
