@@ -17,6 +17,10 @@ googleAnalytics = '' # G-MEASUREMENT_ID
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
+[author]
+  name = "Stefan Maron"
+  email = ""
+
 # To enable Disqus comments, provide Disqus Shortname below.
 # To disable Disqus comments, simply leave the field empty or remove the next line
 disqusShortname = ''
