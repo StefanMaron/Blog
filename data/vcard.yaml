@@ -24,15 +24,18 @@ social:
     icon: coffee
 
 projects:
-  - name: BusinessCentral.LinterCop
-    url: https://github.com/StefanMaron/BusinessCentral.LinterCop
-    description: Static code analysis for AL — catches errors and enforces best practices in Business Central development.
   - name: MSDyn365BC.Code.History
     url: https://github.com/StefanMaron/MSDyn365BC.Code.History
     description: Full source-code history of Microsoft Dynamics 365 Business Central, updated monthly.
-  - name: MSDyn365BC.Sandbox.Code.History
-    url: https://github.com/StefanMaron/MSDyn365BC.Sandbox.Code.History
-    description: Nightly sandbox source history across 50 country versions — because sandbox builds can change multiple times a day.
-  - name: BusinessCentral.Sentinel
-    url: https://github.com/StefanMaron/BusinessCentral.Sentinel
-    description: Free AppSource app that runs health checks against your BC environment and flags potential issues.
+  - name: AL-Dependency-MCP-Server
+    url: https://github.com/StefanMaron/AL-Dependency-MCP-Server
+    description: MCP server that gives AI coding assistants direct access to compiled AL packages and Business Central symbols.
+  - name: BusinessCentral.AL.Runner
+    url: https://github.com/StefanMaron/BusinessCentral.AL.Runner
+    description: Runs Business Central AL unit tests in milliseconds, without a service tier, Docker, or SQL Server.
+  - name: bc-code-atlas
+    url: https://github.com/StefanMaron/bc-code-atlas
+    description: MCP servers that give AI agents a queryable view of Business Central's AL source code and documentation.
+  - name: MsDyn365Bc.On.Linux
+    url: https://github.com/StefanMaron/MsDyn365Bc.On.Linux
+    description: Run Business Central on Linux with Docker Compose.
